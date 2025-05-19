@@ -18,26 +18,6 @@
     // Remove no-js class
     $('html').removeClass('no-js');
 
-/*     // Animate to section when nav is clicked
-    $('header a').click(function(e) {
-
-        // Treat as normal link if no-scroll class
-        if ($(this).hasClass('no-scroll')) return;
-
-        e.preventDefault();
-        var heading = $(this).attr('href');
-        var scrollDistance = $(heading).offset().top;
-
-        $('html, body').animate({
-            scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
-
-        // Hide the menu once clicked if mobile
-        if ($('header').hasClass('active')) {
-            $('header, body').removeClass('active');
-        }
-    }); */
-
     document.querySelectorAll('header a:not(.no-scroll)').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -64,7 +44,47 @@
         });
     });
 
-    // Create timeline
+    // typing animation lead
+    let texts = [];
+    let textIndex = 0;
+    let charIndex = 0;
+
+    $(document).ready(function () {
+        // Texte aus HTML lesen
+        $('#lead-texts-to-type span').each(function () {
+        texts.push($(this).text());
+        });
+
+        // Animation starten
+        typeNextText();
+    });
+
+    function typeNextText() {
+        const $typingText = $('#lead-text-span');
+        const currentText = texts[textIndex];
+
+        if (charIndex < currentText.length) {
+            $typingText.text($typingText.text() + currentText.charAt(charIndex));
+            charIndex++;
+            setTimeout(typeNextText, 50);
+        } else {
+            setTimeout(eraseText, 2000);
+        }
+    }
+
+    function eraseText() {
+        const $typingText = $('#lead-text-span');
+        if (charIndex > 0) {
+            $typingText.text($typingText.text().slice(0, -1));
+            charIndex--;
+            setTimeout(eraseText, 30);
+        } else {
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(typeNextText, 500);
+        }
+    }
+
+    // Create timeline helper function
     function createTimeline(timelineId, iconClass) {
         $this = $(timelineId); // Store reference to this
         $userContent = $this.children('div'); // user content
@@ -87,6 +107,7 @@
             }
         });
     }
+
     // Create timeline for experience
     $('#experience-timeline').each(function() {
         createTimeline('#experience-timeline', 'fa fa-briefcase');
@@ -152,13 +173,7 @@
         window.addEventListener('load', syncProjectHeights);
         window.addEventListener('resize', syncProjectHeights);
 
-        // Contact form reset
-/*         window.onbeforeunload = () => {
-            for(const form of document.getElementsByTagName('form')) {
-                form.reset();
-            }
-        } */
-
+        // Reset forms on page load and back/forward navigation
         function resetForms() {
             for (const form of document.getElementsByTagName('form')) {
                 form.reset();

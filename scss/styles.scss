@@ -170,6 +170,7 @@ header {
 
     li {
         display: inline-block;
+        vertical-align: middle;
     }
 
     a {
@@ -355,8 +356,9 @@ footer {
     align-items: center;     // vertikal zentrieren
     gap: 8px;                // Abstand Bild ↔ Text
 }
+
 .company-logo {
-    height: 1.5rem;
+    height: 2rem;
     display: block;
 }
 
@@ -406,7 +408,7 @@ a {
     position: relative;
     height: 100vh;
     min-height: 250px;
-    max-height: 500px;
+    max-height: 750px;
     background: url(../images/lead-bg-programming.jpg);
     background-size: cover;
     padding: 15px;
@@ -439,6 +441,18 @@ a {
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
+    }
+
+    #lead-text-span {
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid color.adjust($base-color, $lightness: 25%);
+        animation: blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: color.adjust($base-color, $lightness: 25%); }
     }
 }
 

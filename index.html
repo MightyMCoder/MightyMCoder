@@ -23,6 +23,9 @@
             </div>
             <ul id="menu" class="shadow">
                 <li>
+                    <a href="#lead"><img src="favicon.ico" alt="Logo"/></a>
+                </li>
+                <li>
                     <a href="#about">Über mich</a>
                 </li>
                 <li>
@@ -50,8 +53,23 @@
         <div id="lead">
             <div id="lead-content">
                 <h1>Mathias Huth</h1>
-                <h2>Ingenieur Elektro- und Informationstechnik</h2>
-                <!-- <a href="Mathias_Huth_CV.pdf" class="btn-rounded-white">Download Resume</a> -->
+                <br>
+                <br>
+                <h2 id="lead-text">
+                    <span id="lead-text-span"></span>
+                </h2>
+                <!-- Die Texte, die geschrieben werden sollen -->
+                <div id="lead-texts-to-type" class="d-none">
+                    <span>Mechatroniker</span>
+                    <span>Automatisierungstechniker</span>
+                    <span>Ingenieur Elektro- und Informationstechnik</span>
+                    <span>Technikbegeisterter</span>
+                    <span>Software-Entwickler</span>
+                    <span>Web-Entwickler</span>
+                    <span>Open-Source-Enthusiast</span>
+                    <span>Kreativer Denker und Teamplayer</span>
+                    <span>Engagierter Sänger und Musiker</span>
+                </div>
             </div>
             <!-- End #lead-content -->
 
@@ -76,7 +94,6 @@
                         <p>Ob es um die Programmierung von eingebetteten Systemen geht, die Automatisierung von Fertigungs- und Prüfprozessen oder die Entwicklung maßgeschneiderter Software: Ich liebe es, komplexe technische Herausforderungen zu analysieren und mit kreativem Ansatz pragmatische Lösungen zu realisieren.</p>
                         <br>
                         <p>Privat finde ich Ausgleich beim Badminton, Musizieren und im Chor. Beim Spielen von Klavier und Orgel sowie beim Singen im Jungen Chor Wallerfangen schöpfe ich neue Energie für meine technischen Projekte.</p>
-
                     </div>
                 </div>
             </div>
@@ -184,11 +201,11 @@
                             <p>
                                 Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ich eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>.
                             </p>
-                            <a class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#masterModal">mehr anzeigen</a>
+                            <!-- <a class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#masterModal">mehr anzeigen</a> -->
                         </div>
                         <!-- End .project-info -->
                     </div>
-                    <!-- End .project -->
+                    <!-- End .project Master Thesis-->
 
                     <div class="project shadow-large">
                         <div class="project-image shadow-large">
@@ -204,7 +221,7 @@
                         </div>
                         <!-- End .project-info -->
                     </div>
-                    <!-- End .project -->
+                    <!-- End .project InventoryManager-->
 
                     <div class="project shadow-large">
                         <div class="project-image shadow-large">
@@ -215,11 +232,11 @@
                             <p>
                                 Im Rahmen meiner Bachelorarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ein umfassendes Release-Management für die hauseigene Automatisierungssoftware <i>x-line</i>, das manuelle Schritte vollständig automatisiert.
                             </p>
-                            <a class="btn btn-primary" type="button" href="" data-bs-toggle="modal" data-bs-target="#bachelorModal">mehr anzeigen</a>
+                           <!--  <a class="btn btn-primary" type="button" href="" data-bs-toggle="modal" data-bs-target="#bachelorModal">mehr anzeigen</a> -->
                         </div>
                         <!-- End .project-info -->
                     </div>
-                    <!-- End .project -->
+                    <!-- End .project Bachelor Thesis-->
 
                     <div class="project shadow-large">
                         <div class="project-image shadow-large">
@@ -235,7 +252,7 @@
                         </div>
                         <!-- End .project-info -->
                     </div>
-                    <!-- End .project -->
+                    <!-- End .project Notenverwalung-->
                 </div>
             </div>
         </div>
@@ -359,91 +376,6 @@
             </div>
         </footer>
         <!-- End footer -->
-
-        <!-- Modal Bachelorarbeit -->
-        <div class="modal fade" id="bachelorModal" tabindex="-1" aria-labelledby="bachelorModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"id="bachelorModalLabel">Dürr Assembly Products GmbH – Bachelorarbeit</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h3 class="mb-3">Konzeptionierung und Einführung eines automatisierten Release-Managements für die Automatisierungssoftware x-line</h3>
-
-                        <h6>Anforderungsanalyse &amp; Konzeption</h6>
-                        <ul>
-                            <li>Detaillierte Erfassung aller Vorgaben für den neuen Release-Workflow</li>
-                            <li>Identifikation und Lösung potenzieller Probleme (Build-Skripte, IDE-Versionen)</li>
-                        </ul>
-
-                        <h6>Skriptbasierte Automatisierung</h6>
-                        <ul>
-                            <li>Erstellung von Shell- und PowerShell-Skripten für Build, Packaging und Deployment</li>
-                            <li>Automatisches Anlegen von Release-Streams in Perforce Helix Core</li>
-                        </ul>
-
-                        <h6>End-to-End-Test &amp; Absicherung</h6>
-                        <ul>
-                            <li>Validierung des kompletten Release-Workflows in einer Testumgebung</li>
-                            <li>Automatisierte Erstellung und Ablage der Release-Artefakte</li>
-                        </ul>
-
-                        <h6>Entwicklung eines C#-Hilfstools</h6>
-                        <p>Ein selbst entwickeltes Desktop-Tool in C# ermöglicht das automatische Zusammenstellen aller benötigten DLLs und Visual-Studio-Solution-Dateien, wodurch die Projektvorbereitung deutlich schneller und fehlerresistenter wird.</p>
-                        
-                        <h6>Ergebnis &amp; Mehrwert</h6>
-                        <ul>
-                            <li>Vollständig automatisierter Release-Workflow von der Quellcodeverwaltung bis zur Auslieferung</li>
-                            <li>Signifikante Reduzierung manueller Aufwände und höhere Release-Sicherheit</li>
-                            <li>Zeitersparnis durch das C#-Hilfstool und einfache Erweiterbarkeit für künftige Anforderungen</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Masterarbeit -->
-        <div class="modal fade" id="masterModal" tabindex="-1" aria-labelledby="masterModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="masterModalLabel">Masterarbeit: Objektorientierte Komponentenstruktur</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h3 class="mb-3">Entwicklung einer objektorientierten Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten</h3>
-
-                        <h6>Anforderungsanalyse &amp; Konzept</h6>
-                        <ul>
-                            <li>Detaillierte Erfassung aller Anforderungen und Identifikation potenzieller Umsetzungsprobleme</li>
-                            <li>Erstellung eines umfangreichen Konzepts mit klaren Design- und Namensrichtlinien</li>
-                        </ul>
-
-                        <h6>Implementierung</h6>
-                        <ul>
-                            <li>Aufbau einer robusten Klassenübersicht und Entwicklung der Basisklassen</li>
-                            <li>Fokus auf Erweiterbarkeit, einheitliche Klassenbenennung und sauberes, skalierbares Design</li>
-                            <li>Entwicklung standardisierter, universell anwendbarer Datenstrukturen</li>
-                        </ul>
-
-                        <h6>Testumgebung &amp; Validierung</h6>
-                        <ul>
-                            <li>Aufbau einer Testumgebung zur Validierung verschiedener Sensoren und Anwendungsszenarien</li>
-                            <li>Durchführen von Auswertungsalgorithmen und „Proof of Concept“-Tests</li>
-                        </ul>
-
-                        <p>Das Ergebnis ist eine zukunftssichere, skalierbare Architektur, die als Grundlage für weiterführende Projekte dient.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- back to top -->
         <a href="#" id="back-to-top" title="Zurück nach oben">
