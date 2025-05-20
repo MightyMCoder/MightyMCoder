@@ -11,7 +11,6 @@
 */
 
 (function($) {
-
     // Show current year
     $("#current-year").text(new Date().getFullYear());
 
@@ -44,31 +43,189 @@
         });
     });
 
-    // typing animation lead
+    // Sync project image heights with info section
+    function syncProjectHeights() {
+        document.querySelectorAll('.project').forEach(project => {
+        const image = project.querySelector('.project-image');
+        const info = project.querySelector('.project-info');
+
+        if (image && info) {
+            // Reset any previous inline height
+            image.style.height = 'auto';
+            // Match image height to info
+            image.style.height = info.offsetHeight + 'px';
+        }
+        });
+    }
+
+    // Create timeline helper function
+    function createTimeline(timelineId, iconClass) {
+        const $container = $(timelineId);
+
+        // Step 1: Extract all timeline items before they were wrapped
+        const $rawItems = [];
+        $container.children('.vtimeline-point').each(function () {
+            const $content = $(this).find('.vtimeline-content').first();
+            if ($content.length) {
+                $content.removeClass('vtimeline-content');
+                $content.children('.vtimeline-date').remove(); // just in case
+                $rawItems.push($content.detach()); // store original div
+            }
+        });
+
+        if ($rawItems.length === 0) {
+            // fallback: if not already wrapped (e.g., first time)
+            $container.children('div').each(function () {
+                $rawItems.push($(this).detach());
+            });
+        }
+
+        // Step 2: Clear container
+        $container.empty();
+
+        // Step 3: Re-insert raw divs and rebuild
+        $rawItems.forEach(function ($item) {
+            $item.addClass('vtimeline-content');
+
+            const date = $item.attr('data-date') || '';
+            const $block = $('<div class="vtimeline-block"></div>').append($item);
+            const $point = $('<div class="vtimeline-point"></div>')
+                .append('<div class="vtimeline-icon"><i class="' + iconClass + '"></i></div>')
+                .append($block);
+
+            if (date) {
+                $point.prepend('<span class="vtimeline-date">' + date + '</span>');
+            }
+
+            $container.append($point);
+        });
+    }
+
     let texts = [];
     let textIndex = 0;
     let charIndex = 0;
+    let typingTimeout = null;
+    let erasingTimeout = null;
 
-    $(document).ready(function () {
-        // Texte aus HTML lesen
-        $('#lead-texts-to-type span').each(function () {
-        texts.push($(this).text());
+    function loadLanguage(lang) {
+        // change language tag
+        $('html').attr('lang', lang);
+
+        // Change language in form
+        $('#form-language').val(lang);
+
+        // Update language button
+        updateLanguageButton(lang);
+
+        $.ajax({
+            url: 'languages/' + lang + '.xml',
+            dataType: 'xml',
+            success: function (xml) {
+                const translations = {};
+
+                // Parse XML: <string name="KEY">Value</string>
+                $(xml).find('string').each(function () {
+                    const key = $(this).attr('name');
+                    const value = $(this).text();
+                    translations[key] = value;
+                });
+
+                // Apply translations to all elements with data-i18n
+                $('[data-i18n]').each(function () {
+                    const key = $(this).attr('data-i18n');
+                    if (translations[key]) {
+                        $(this).html(translations[key]);
+                    }
+                });
+
+                // Translate timeline dates
+                $('[data-i18n-date]').each(function () {
+                    const key = $(this).attr('data-i18n-date');
+                    if (translations[key]) {
+                        $(this).attr('data-date', translations[key]);
+                    }
+                });
+
+                // Translate placeholders
+                $('[data-i18n-placeholder]').each(function () {
+                    const key =$(this).attr('data-i18n-placeholder');
+                    if (translations[key]) {
+                        $(this).attr('placeholder', translations[key]);
+                    }
+                });
+
+                // Get translated typing texts
+                texts = [];
+                $('#lead-texts-to-type span').each(function () {
+                    const key = $(this).attr('data-i18n');
+                    if (translations[key]) {
+                        $(this).html(translations[key]); // Optional: update DOM
+                        texts.push(translations[key]);   // Required: push to typing array
+                    }
+                });
+
+                // Restart typing animation
+                clearTypingTimers();
+                textIndex = 0;
+                charIndex = 0;
+                
+                // Start typing animation
+                $('#lead-text-span').text('');
+                typeNextText();
+
+                // Sync project images heights
+                syncProjectHeights();
+             
+                // Create timeline for experience
+                $('#experience-timeline').each(function() {
+                    createTimeline('#experience-timeline', 'fa fa-briefcase');
+                });
+
+                // Create timeline for education
+                $('#education-timeline').each(function() {
+                    createTimeline('#education-timeline', 'fa fa-graduation-cap');
+                });
+            },
+            error: function () {
+                console.error('Language file not found: ' + lang);
+            }
         });
+    }
 
-        // Animation starten
-        typeNextText();
-    });
+    function updateLanguageButton(lang) {
+        const $button = $('#language-switcher button');
+
+        if (lang === 'de') {
+            $button.attr('data-i18n', 'LANG_GERMAN');
+        } else if (lang === 'en') {
+            $button.attr('data-i18n', 'LANG_ENGLISH');
+        } else if (lang === 'fr') {
+            $button.attr('data-i18n', 'LANG_FRENCH');
+        }
+    }
+
+    function clearTypingTimers() {
+        if (typingTimeout) {
+            clearTimeout(typingTimeout);
+            typingTimeout = null;
+        }
+        if (erasingTimeout) {
+            clearTimeout(erasingTimeout);
+            erasingTimeout = null;
+        }
+    }
 
     function typeNextText() {
         const $typingText = $('#lead-text-span');
-        const currentText = texts[textIndex];
+        const currentText = texts[textIndex] || "";
 
         if (charIndex < currentText.length) {
             $typingText.text($typingText.text() + currentText.charAt(charIndex));
             charIndex++;
-            setTimeout(typeNextText, 50);
+            typingTimeout = setTimeout(typeNextText, 50);
         } else {
-            setTimeout(eraseText, 2000);
+            typingTimeout = null;
+            erasingTimeout = setTimeout(eraseText, 2000);
         }
     }
 
@@ -77,45 +234,23 @@
         if (charIndex > 0) {
             $typingText.text($typingText.text().slice(0, -1));
             charIndex--;
-            setTimeout(eraseText, 30);
+            erasingTimeout = setTimeout(eraseText, 30);
         } else {
             textIndex = (textIndex + 1) % texts.length;
-            setTimeout(typeNextText, 500);
+            erasingTimeout = setTimeout(typeNextText, 500);
         }
     }
 
-    // Create timeline helper function
-    function createTimeline(timelineId, iconClass) {
-        $this = $(timelineId); // Store reference to this
-        $userContent = $this.children('div'); // user content
-
-        // Create each timeline block
-        $userContent.each(function() {
-            $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
+    $(document).ready(function () {
+        $('#language-switcher .dropdown-item').on('click', function (e) {
+            e.preventDefault();
+            const lang = $(this).data('lang');
+            loadLanguage(lang);
+            localStorage.setItem('lang', lang);
         });
 
-        // Add icons to each block
-        $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="' + iconClass + '"></i></div>');
-        });
-
-        // Add dates to the timeline if exists
-        $this.find('.vtimeline-content').each(function() {
-            var date = $(this).data('date');
-            if (date) { // Prepend if exists
-                $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
-            }
-        });
-    }
-
-    // Create timeline for experience
-    $('#experience-timeline').each(function() {
-        createTimeline('#experience-timeline', 'fa fa-briefcase');
-    });
-
-    // Create timeline for education
-    $('#education-timeline').each(function() {
-        createTimeline('#education-timeline', 'fa fa-graduation-cap');
+        const savedLang = localStorage.getItem('lang') || 'de';
+        loadLanguage(savedLang);
     });
 
     // Open mobile menu
@@ -155,22 +290,6 @@
             });
         }
 
-        // Sync project image heights with info section
-        function syncProjectHeights() {
-            document.querySelectorAll('.project').forEach(project => {
-            const image = project.querySelector('.project-image');
-            const info = project.querySelector('.project-info');
-
-            if (image && info) {
-                // Reset any previous inline height
-                image.style.height = 'auto';
-                // Match image height to info
-                image.style.height = info.offsetHeight + 'px';
-            }
-            });
-        }
-
-        window.addEventListener('load', syncProjectHeights);
         window.addEventListener('resize', syncProjectHeights);
 
         // Reset forms on page load and back/forward navigation

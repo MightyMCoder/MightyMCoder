@@ -26,25 +26,41 @@
                     <a href="#lead"><img src="favicon.ico" alt="Logo"/></a>
                 </li>
                 <li>
-                    <a href="#about">Über mich</a>
+                    <a href="#about" data-i18n="HEADING_ABOUT"></a>
                 </li>
                 <li>
-                    <a href="#experience">Beruflicher Werdegang</a>
+                    <a href="#experience" data-i18n="HEADING_EXPERIENCE"></a>
                 </li>
                 <li>
-                    <a href="#education">Ausbildung</a>
+                    <a href="#education" data-i18n="HEADING_EDUCATION"></a>
                 </li>
                 <li>
-                    <a href="#projects">Projekte</a>
+                    <a href="#projects" data-i18n="HEADING_PROJECTS"></a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills" data-i18n="HEADING_SKILLS"></a>
                 </li>
                 <li>
-                    <a href="#voluntary-work">ehrenamtliche Tätigkeit</a>
+                    <a href="#voluntary-work" data-i18n="HEADING_VOLUNTARY_WORK"></a>
                 </li>
                 <li>
-                    <a href="#contact">Kontakt</a>
+                    <a href="#contact" data-i18n="HEADING_CONTACT"></a>
+                </li>
+                <li>
+                    <div id="language-switcher" class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-i18n=""></button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" data-lang="de" data-i18n="LANG_GERMAN"></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" data-lang="en" data-i18n="LANG_ENGLISH"></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" data-lang="fr" data-i18n="LANG_FRENCH"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </header>
@@ -58,17 +74,17 @@
                 <h2 id="lead-text">
                     <span id="lead-text-span"></span>
                 </h2>
-                <!-- Die Texte, die geschrieben werden sollen -->
+                <!-- Texts to be animated, hidden -->
                 <div id="lead-texts-to-type" class="d-none">
-                    <span>Mechatroniker</span>
-                    <span>Automatisierungstechniker</span>
-                    <span>Ingenieur Elektro- und Informationstechnik</span>
-                    <span>Technikbegeisterter</span>
-                    <span>Software-Entwickler</span>
-                    <span>Web-Entwickler</span>
-                    <span>Open-Source-Enthusiast</span>
-                    <span>Kreativer Denker und Teamplayer</span>
-                    <span>Engagierter Sänger und Musiker</span>
+                    <span data-i18n="LEAD_TYPE_1"></span>
+                    <span data-i18n="LEAD_TYPE_2"></span>
+                    <span data-i18n="LEAD_TYPE_3"></span>
+                    <span data-i18n="LEAD_TYPE_4"></span>
+                    <span data-i18n="LEAD_TYPE_5"></span>
+                    <span data-i18n="LEAD_TYPE_6"></span>
+                    <span data-i18n="LEAD_TYPE_7"></span>
+                    <span data-i18n="LEAD_TYPE_8"></span>
+                    <span data-i18n="LEAD_TYPE_9"></span>
                 </div>
             </div>
             <!-- End #lead-content -->
@@ -78,7 +94,7 @@
         <!-- End #lead -->
 
         <div id="about">
-            <h2 class="heading">Über mich</h2>
+            <h2 class="heading" data-i18n="HEADING_ABOUT"></h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -87,13 +103,11 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <h3>Hallo, ich bin Mathias,</h3>
-                        <p>27 Jahre alt und leidenschaftlicher Ingenieur mit dem Blick fürs Große und fürs Detail.</p>
-                        <p>Nach meiner Ausbildung zum Mechatroniker habe ich an der <a href="https://www.htwsaar.de/" target="_blank">htw saar</a> sowohl meinen Bachelor als auch meinen Master in Elektro- und Informationstechnik abgeschlossen.</p>
-                        <br>
-                        <p>Ob es um die Programmierung von eingebetteten Systemen geht, die Automatisierung von Fertigungs- und Prüfprozessen oder die Entwicklung maßgeschneiderter Software: Ich liebe es, komplexe technische Herausforderungen zu analysieren und mit kreativem Ansatz pragmatische Lösungen zu realisieren.</p>
-                        <br>
-                        <p>Privat finde ich Ausgleich beim Badminton, Musizieren und im Chor. Beim Spielen von Klavier und Orgel sowie beim Singen im Jungen Chor Wallerfangen schöpfe ich neue Energie für meine technischen Projekte.</p>
+                        <h3 data-i18n="ABOUT_INTRO_HEADING"></h3>
+                        <p data-i18n="ABOUT_INTRO_TEXT1"></p>
+                        <p data-i18n="ABOUT_INTRO_TEXT2"></p>
+                        <p data-i18n="ABOUT_INTRO_TEXT3"></p>
+                        <p data-i18n="ABOUT_INTRO_TEXT4"></p>
                     </div>
                 </div>
             </div>
@@ -101,95 +115,102 @@
         <!-- End #about -->
 
         <div id="experience" class="background-alt">
-            <h2 class="heading">Beruflicher Werdegang</h2>
+            <h2 class="heading" data-i18n="HEADING_EXPERIENCE"></h2>
             <div id="experience-timeline">
-                <div data-date="Oktober 2023 – April 2025">
+                <div data-i18n-date="EXP_DATE_MASTER">
                     <h3 class="company-heading">
-                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo"class="company-logo"/>
-                        Dürr Assembly Products GmbH
+                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo" class="company-logo" />
+                        <span data-i18n="EXP_COMPANY_DUERR"></span>
                     </h3>
-                    <h4>kooperativer Student (Masterand)</h4>
-                    <p>Kooperatives Masterstudium der Elektro- und Informationstechnik in der Vertiefung Elektromobilität und autonomes Fahren.</p>
+                    <h4 data-i18n="EXP_TITLE_MASTER"></h4>
+                    <p data-i18n="EXP_DESC_MASTER"></p>
                     <br>
-                    <p>Thema der Thesis:</p>
-                    <p>Entwicklung einer objektorientierten Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten</p>
+                    <p data-i18n="EXP_THESIS_LABEL_MASTER"></p>
+                    <p data-i18n="EXP_THESIS_MASTER"></p>
                 </div>
-                <div data-date="Oktober 2019 – September 2023">
+
+                <div data-i18n-date="EXP_DATE_BACHELOR">
                     <h3 class="company-heading">
-                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo"class="company-logo"/>
-                        Dürr Assembly Products GmbH
+                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo" class="company-logo" />
+                        <span data-i18n="EXP_COMPANY_DUERR"></span>
                     </h3>
-                    <h4>kooperativer Student (Bachelorand)</h4>
-                    <p>Kooperatives Bachelorstudium der Elektro- und Informationstechnik in der Vertiefung Automatisierungstechnik.</p>
+                    <h4 data-i18n="EXP_TITLE_BACHELOR"></h4>
+                    <p data-i18n="EXP_DESC_BACHELOR"></p>
                     <br>
-                    <p>Thema der Thesis:</p>
-                    <p>Konzeptionierung und Einführung eines automatisierten Release-Managements für die Automatisierungssoftware x-line</p>
+                    <p data-i18n="EXP_THESIS_LABEL_BACHELOR"></p>
+                    <p data-i18n="EXP_THESIS_BACHELOR"></p>
                 </div>
-                <div data-date="Juni 2019 – September 2019">
+
+                <div data-i18n-date="EXP_DATE_MONTEUR">
                     <h3 class="company-heading">
-                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo"class="company-logo"/>
-                        Dürr Assembly Products GmbH
+                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo" class="company-logo" />
+                        <span data-i18n="EXP_COMPANY_DUERR"></span>
                     </h3>
-                    <h4>Monteur (Elektrik)</h4>
-                    <p>Befristete Beschäftigung als Monteur bis zum Beginn des Studiums.</p>
+                    <h4 data-i18n="EXP_TITLE_MONTEUR"></h4>
+                    <p data-i18n="EXP_DESC_MONTEUR"></p>
                 </div>
-                <div data-date="September 2016 – Juni 2019">
+
+                <div data-i18n-date="EXP_DATE_APPRENTICESHIP">
                     <h3 class="company-heading">
-                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo"class="company-logo"/>
-                        Dürr Assembly Products GmbH
+                        <img src="images/20-01-14_Duerr_Logo_positiv_RGB_V1_1.png" alt="Dürr Assembly Products GmbH Logo" class="company-logo" />
+                        <span data-i18n="EXP_COMPANY_DUERR"></span>
                     </h3>
-                    <h4>Ausbildung Mechatroniker</h4>
-                    <p>Betriebliche Ausbildung zum Mechatroniker.</p>
+                    <h4 data-i18n="EXP_TITLE_APPRENTICESHIP"></h4>
+                    <p data-i18n="EXP_DESC_APPRENTICESHIP"></p>
                 </div>
             </div>
         </div>
         <!-- End #experience -->
 
         <div id="education">
-            <h2 class="heading">Ausbildung</h2>
+            <h2 class="heading" data-i18n="HEADING_EDUCATION"></h2>
             <div id="education-timeline">
-                <div data-date="Oktober 2023 – April 2025">
-                    <h3>Hochschule für Technik und Wirtschaft des Saarlandes</h3>
-                    <h4>Master of Science Elektro- und Informationstechnik</h4>
-                    <p>Vertiefungsrichtung: Elektomobilität und autonomes Fahren</p>
+                <!-- Master -->
+                <div data-i18n-date="EDU_DATE_MASTER">
+                    <h3 data-i18n="EDU_HTW_SAAR"></h3>
+                    <h4 data-i18n="EDU_TITLE_MASTER"></h4>
+                    <p data-i18n="EDU_SPECIALIZATION_MASTER"></p>
                     <br>
-                    <p>Belege Wahlmodule:</p>
+                    <p data-i18n="EDU_ELECTIVES_LABEL_MASTER"></p>
                     <ul>
-                        <li>Softwareentwicklung mit C/C++</li>
-                        <li>Next Generation Networks</li>
-                        <li>Hardware Implementierung Digitaler Algorithmen in DSP und FPGA</li>
-                        <li>Industrielle Robotik </li>
-                    </ul>
-                </div>
-                
-                <div data-date="Oktober 2019 – September 2023">
-                    <h3>Hochschule für Technik und Wirtschaft des Saarlandes</h3>
-                    <h4>Bachelor of Engineering Elektro- und Informationstechnik</h4>
-                    <p>Vertiefungsrichtung: Automatisierungstechnik</p>
-                    <br>
-                    <p>belege Wahlmodule:</p>
-                    <ul>
-                        <li>Smart Grids und Dezentrale Energieerzeugung</li>
-                        <li>Matlab/Simulink in der Automatisierungstechnik </li>
-                        <li>Grundlagen der Ausbildereignung</li>
+                        <li data-i18n="EDU_ELECTIVE_MASTER_1"></li>
+                        <li data-i18n="EDU_ELECTIVE_MASTER_2"></li>
+                        <li data-i18n="EDU_ELECTIVE_MASTER_3"></li>
+                        <li data-i18n="EDU_ELECTIVE_MASTER_4"></li>
                     </ul>
                 </div>
 
-                <div data-date="September 2016 – Juni 2019">
-                    <h3>Berufsbildungszentrum Sulzbach</h3>
-                    <h4>Mechatroniker (Facharbeiterbrief)</h4>
+                <!-- Bachelor -->
+                <div data-i18n-date="EDU_DATE_BACHELOR">
+                    <h3 data-i18n="EDU_HTW_SAAR"></h3>
+                    <h4 data-i18n="EDU_TITLE_BACHELOR"></h4>
+                    <p data-i18n="EDU_SPECIALIZATION_BACHELOR"></p>
+                    <br>
+                    <p data-i18n="EDU_ELECTIVES_LABEL_BACHELOR"></p>
+                    <ul>
+                        <li data-i18n="EDU_ELECTIVE_BACHELOR_1"></li>
+                        <li data-i18n="EDU_ELECTIVE_BACHELOR_2"></li>
+                        <li data-i18n="EDU_ELECTIVE_BACHELOR_3"></li>
+                    </ul>
                 </div>
 
-                <div data-date="August 2008 – Juni 2016">
-                    <h3>Albert-Schweitzer-Gymnasium Dillingen</h3>
-                    <h4>Abitur (allgemeine Hochschulreife)</h4>
+                <!-- Ausbildung -->
+                <div data-i18n-date="EDU_DATE_APPRENTICESHIP">
+                    <h3 data-i18n="EDU_BBZ_SULZBACH"></h3>
+                    <h4 data-i18n="EDU_TITLE_APPRENTICESHIP"></h4>
+                </div>
+
+                <!-- Schule -->
+                <div data-i18n-date="EDU_DATE_SCHOOL">
+                    <h3 data-i18n="EDU_GYMNASIUM"></h3>
+                    <h4 data-i18n="EDU_TILE_SCHOOL"></h4>
                 </div>
             </div>
         </div>
         <!-- End #education -->
 
         <div id="projects" class="background-alt">
-            <h2 class="heading">Projekte</h2>
+            <h2 class="heading" data-i18n="HEADING_PROJECTS"></h2>
             <div class="container">
                 <div class="row">
                     <div class="project shadow-large">
@@ -197,11 +218,8 @@
                             <img src="images/Master_Thesis.png" alt="Master-Thesis"/>
                         </div>
                         <div class="project-info">
-                            <h3>Masterarbeit</h3>
-                            <p>
-                                Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ich eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>.
-                            </p>
-                            <!-- <a class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#masterModal">mehr anzeigen</a> -->
+                            <h3 data-i18n="PROJECT_1_TITLE"></h3>
+                            <p data-i18n="PROJECT_1_DESCRIPTION"></p>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -213,11 +231,9 @@
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
-                            <h3>Plugin InventoryManager</h3>
-                            <p>
-                                Plugin für <a href="https://www.admidio.org" target="_blank">Admidio</a> zur Verwaltung von Inventarbeständen einer Admidio-Organisation.
-                            </p>
-                            <a class="btn btn-primary" type="button" href="https://github.com/MightyMCoder/InventoryManager" target="_blank">Projekt anzeigen (Github)</a>
+                            <h3 data-i18n="PROJECT_2_TITLE"></h3>
+                            <p data-i18n="PROJECT_2_DESCRIPTION"></p>
+                            <a class="btn btn-primary" type="button" href="https://github.com/MightyMCoder/InventoryManager" target="_blank" data-i18n="PROJECT_2_BUTTON"></a>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -228,11 +244,8 @@
                             <img src="images/Bachelor_Thesis.png" alt="Bachelor-Thesis"/>
                         </div>
                         <div class="project-info">
-                            <h3>Bachelorarbeit</h3>
-                            <p>
-                                Im Rahmen meiner Bachelorarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ein umfassendes Release-Management für die hauseigene Automatisierungssoftware <i>x-line</i>, das manuelle Schritte vollständig automatisiert.
-                            </p>
-                           <!--  <a class="btn btn-primary" type="button" href="" data-bs-toggle="modal" data-bs-target="#bachelorModal">mehr anzeigen</a> -->
+                            <h3 data-i18n="PROJECT_3_TITLE"></h3>
+                            <p data-i18n="PROJECT_3_DESCRIPTION"></p>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -244,11 +257,9 @@
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
-                            <h3>Notenverwaltung Web-App</h3>
-                            <p>
-                                Web-App des <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> zur digitalen Verwaltung und Verteilung von Chornoten und Erstellung von Anwesenheitslisten.
-                            </p>
-                            <a class="btn btn-primary" type="button" href="https://notenverwaltung.der-junge-chor.de/" target="_blank">Projekt anzeigen</a>
+                            <h3 data-i18n="PROJECT_4_TITLE"></h3>
+                            <p data-i18n="PROJECT_4_DESCRIPTION"></p>
+                            <a class="btn btn-primary" type="button" href="https://notenverwaltung.der-junge-chor.de/" target="_blank" data-i18n="PROJECT_4_BUTTON"></a>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -259,7 +270,7 @@
         <!-- End #projects -->
 
         <div id="skills">
-            <h2 class="heading">Skills</h2>
+            <h2 class="heading" data-i18n="HEADING_SKILLS"></h2>
             <div class="container text-center">
                 <div class="d-flex flex-wrap justify-content-center gap-2">
                     <span class="badge bg-secondary">HTML</span>
@@ -314,40 +325,34 @@
         <!-- End #skills -->
 
         <div id="voluntary-work" class="optional-section background-alt">
-            <h2 class="heading">ehrenamtliche Tätigkeit</h2>
+            <h2 class="heading" data-i18n="HEADING_VOLUNTARY_WORK"></h2>
 
             <div class="optional-section-block">
                 <h3 class="company-heading">
-                    <img src="images/DjC-logo-transparent.png" alt="Der Junge Chor Wallerfangen e.V. Logo"class="company-logo"/>
-                    Der Junge Chor Wallerfangen e.V.
+                    <img src="images/DjC-logo-transparent.png" alt="Der Junge Chor Wallerfangen e.V. Logo" class="company-logo"/>
+                    <span data-i18n="VOLUNTEER_TITLE"></span>
                 </h3>
-                <span class="opional-section-date">seit Dezember 2019</span>
-                <h4>Notenwart &amp; Server-Administrator</h4>
-                <p>
-                    Der <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> ist ein gemischter Chor mit ca. 45 aktiven Sängerinnen und Sängern, der sich auf die Aufführung von sowohl weltlichem als auch geistlichem Liedgut spezialisiert hat.
-                </p>
-                <p>
-                    2016 bin ich dem Chor zunächst als Sänger (Tenor) beigetreten und habe 2019 die Position des Notenwarts übernommen. In dieser Funktion bin ich primär für die Verwaltung und Verteilung der Chornoten verantwortlich.
-                </p>
-                <p>
-                    Im Laufe meiner Vorstandstätigkeit und der Umsrukurierung des Online-Aufrittes des Chores habe ich die Server-Administration übernommen. In dieser Funktion bin ich für die Wartung und den Betrieb der Online-Mitgliederverwalung (Intranet), der Nexcloud-Instanz und der eigenst entwickelten Notenverwaltung Web-App verantwortlich.
-                </p>
+                <span class="optional-section-date" data-i18n="VOLUNTEER_SINCE"></span>
+                <h4 data-i18n="VOLUNTEER_ROLE"></h4>
+                <p data-i18n="VOLUNTEER_TEXT1"></p>
+                <p data-i18n="VOLUNTEER_TEXT2"></p>
+                <p data-i18n="VOLUNTEER_TEXT3"></p>
             </div>
             <!-- End .optional-section-block -->
         </div>
         <!-- End #voluntary-work -->
 
         <div id="contact">
-            <h2>Kontaktiere mich</h2>
+            <h2 class="contact" data-i18n="HEADING_CONTACT"></h2>
             <div id="contact-form">
                 <form method="POST" action="https://formspree.io/f/xgvkdpaj">
-                    <input type="hidden" name="_language" value="de" />
+                    <input id="form-language" type="hidden" name="_language" value="de" />
                     <input type="text" name="_gotcha" style="display:none" />
                     <input type="hidden" name="subject" value="Kontaktanfrage von {{ name }} über persönliche Webseite" />
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="email" name="email" placeholder="E-Mail" required>
-                    <textarea name="message" placeholder="Nachricht an mich" required></textarea>
-                    <button type="submit">Senden</button>
+                    <input type="text" name="name" data-i18n-placeholder="FORM_NAME" required>
+                    <input type="email" name="email" data-i18n-placeholder="FORM_EMAIL" required>
+                    <textarea name="message" data-i18n-placeholder="FORM_MESSAGE" required></textarea>
+                    <button type="submit" data-i18n="FORM_SEND"></button>
                 </form>
             </div>
             <!-- End #contact-form -->
@@ -356,14 +361,16 @@
 
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 copyright">
+                <div class="row align-items-center">
+                    <div class="col-sm copyright">
                         <p>
                             Copyright &copy; <span id="current-year">2025</span> Mathias Huth
                         </p>
-                        <script language="JavaScript" src="https://www.besucherzaehler-kostenlos.de/js/counter.js.php?count=1&id=lCbDNozL8N&start=0&design=1f"></script>
                     </div>
-                    <div class="col-sm-5 social">
+                    <div class="col-sm counter d-none d-md-block">
+                        <script language="JavaScript" src="https://www.besucherzaehler-kostenlos.de/js/counter.js.php?count=1&id=NjYhcFW7dJ&start=0&design=3c"></script>
+                    </div>
+                    <div class="col-sm social">
                         <ul>
                             <li>
                                 <a href="https://github.com/MightyMCoder" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -372,6 +379,9 @@
                                 <a href="https://linkedin.com/in/mathias-huth-028b06341" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="col-sm counter d-block d-md-none">
+                        <script language="JavaScript" src="https://www.besucherzaehler-kostenlos.de/js/counter.js.php?count=1&id=NjYhcFW7dJ&start=0&design=3c"></script>
                     </div>
                 </div>
             </div>
@@ -386,6 +396,6 @@
         <!-- JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/scripts.min.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <!-- LANGUAGES -->
+    <string name="LANG_GERMAN">🇩🇪 Allemand</string>
+    <string name="LANG_ENGLISH">🇬🇧 Anglais</string>
+    <string name="LANG_FRENCH">🇫🇷 Français</string>
+    <!-- HEADLINES -->
+    <string name="HEADING_ABOUT">À propos de moi</string>
+    <string name="HEADING_EXPERIENCE">Parcours professionnel</string>
+    <string name="HEADING_EDUCATION">Formation</string>
+    <string name="HEADING_PROJECTS">Projets</string>
+    <string name="HEADING_SKILLS">Compétences</string>
+    <string name="HEADING_VOLUNTARY_WORK">Travail bénévole</string>
+    <string name="HEADING_CONTACT">Contact</string>
+    <!-- LEAD -->
+    <string name="LEAD_TYPE_1">Mécatronicien</string>
+    <string name="LEAD_TYPE_2">Technicien en automatisation</string>
+    <string name="LEAD_TYPE_3">Ingénieur en électrotechnique et technologies de l'information</string>
+    <string name="LEAD_TYPE_4">Passionné de technologie</string>
+    <string name="LEAD_TYPE_5">Développeur logiciel</string>
+    <string name="LEAD_TYPE_6">Développeur web</string>
+    <string name="LEAD_TYPE_7">Passionné par l'open-source</string>
+    <string name="LEAD_TYPE_8">Penseur créatif et joueur d'équipe</string>
+    <string name="LEAD_TYPE_9">Chanteur et musicien engagé</string>
+    <!-- ABOUT -->
+    <string name="ABOUT_INTRO_HEADING">Bonjour, je suis Mathias,</string>
+    <string name="ABOUT_INTRO_TEXT1">27 ans, ingénieur passionné avec un sens du détail et une vision globale.</string>
+    <string name="ABOUT_INTRO_TEXT2"><![CDATA[Après ma formation de mécatronicien, j'ai obtenu mon Bachelor ainsi que mon Master en électrotechnique et technologies de l'information à la <a href="https://www.htwsaar.de/" target="_blank">htw saar</a>.]]></string>
+    <string name="ABOUT_INTRO_TEXT3">Que ce soit pour la programmation de systèmes embarqués, l'automatisation des processus de fabrication et de test ou le développement de logiciels sur mesure : j'adore analyser des défis techniques complexes et trouver des solutions pragmatiques avec une approche créative.</string>
+    <string name="ABOUT_INTRO_TEXT4">En privé, je trouve l'équilibre en jouant au badminton, en faisant de la musique et en chantant dans une chorale. Jouer du piano et de l'orgue, ainsi que chanter dans le Junge Chor Wallerfangen, me permet de recharger mes batteries pour mes projets techniques.</string>
+    <!-- EXPERIENCE -->
+    <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
+    <!-- EXP MASTER -->
+    <string name="EXP_DATE_MASTER">Oktober 2023 – April 2025</string>
+    <string name="EXP_TITLE_MASTER">Étudiant en alternance (Master)</string>
+    <string name="EXP_DESC_MASTER">Master en alternance en électrotechnique et technologies de l'information, avec une spécialisation en électromobilité et conduite autonome.</string>
+    <string name="EXP_THESIS_LABEL_MASTER">Sujet de mémoire :</string>
+    <string name="EXP_THESIS_MASTER">Développement d'une structure de composants orientée objet pour le traitement et la visualisation de données 3D issues de capteurs</string>
+    <!-- EXP BACHELOR -->
+    <string name="EXP_DATE_BACHELOR">Oktober 2019 – September 2023</string>
+    <string name="EXP_TITLE_BACHELOR">Étudiant en alternance (Bachelor)</string>
+    <string name="EXP_DESC_BACHELOR">Bachelor en alternance en électrotechnique, avec spécialisation en automatisation.</string>
+    <string name="EXP_THESIS_LABEL_BACHELOR">Sujet de mémoire :</string>
+    <string name="EXP_THESIS_BACHELOR">Conception et mise en place d'une gestion des publications automatisée pour le logiciel d'automatisation x-line</string>
+    <!-- EXP MONTEUR -->
+    <string name="EXP_DATE_MONTEUR">Juni 2019 – September 2019</string>
+    <string name="EXP_TITLE_MONTEUR">Monteur (électricien)</string>
+    <string name="EXP_DESC_MONTEUR">Emploi temporaire comme monteur jusqu'au début des études.</string>
+    <!-- EXP APPRENTICESHIP -->
+    <string name="EXP_DATE_APPRENTICESHIP">September 2016 – Juni 2019</string>
+    <string name="EXP_TITLE_APPRENTICESHIP">Formation de mécatronicien</string>
+    <string name="EXP_DESC_APPRENTICESHIP">Formation en entreprise de mécatronicien.</string>
+    <!-- EDUCATION -->
+    <string name="EDU_HTW_SAAR">Haute école de technologie et d'économie du Saarland</string>
+    <string name="EDU_BBZ_SULZBACH">Centre de formation professionnelle de Sulzbach</string>
+    <string name="EDU_GYMNASIUM">Lycée Albert-Schweitzer de Dillingen</string>
+    <!-- EDU MASTER -->
+    <string name="EDU_DATE_MASTER">Oktober 2023 – April 2025</string>
+    <string name="EDU_TITLE_MASTER">Master of Science en électrotechnique et technologies de l'information</string>
+    <string name="EDU_SPECIALIZATION_MASTER">Spécialisation : électromobilité et conduite autonome</string>
+    <string name="EDU_ELECTIVES_LABEL_MASTER">Modules optionnels suivis :</string>
+    <string name="EDU_ELECTIVE_MASTER_1">Développement logiciel avec C/C++</string>
+    <string name="EDU_ELECTIVE_MASTER_2">Réseaux de nouvelle génération</string>
+    <string name="EDU_ELECTIVE_MASTER_3">Implémentation matérielle d'algorithmes numériques sur DSP et FPGA</string>
+    <string name="EDU_ELECTIVE_MASTER_4">Robotique industrielle</string>
+    <!-- EDU BACHELOR -->
+    <string name="EDU_DATE_BACHELOR">Oktober 2019 – September 2023</string>
+    <string name="EDU_TITLE_BACHELOR">Bachelor of Engineering en électrotechnique et technologies de l'information</string>
+    <string name="EDU_SPECIALIZATION_BACHELOR">Spécialisation : automatisation</string>
+    <string name="EDU_ELECTIVES_LABEL_BACHELOR">Modules optionnels suivis :</string>
+    <string name="EDU_ELECTIVE_BACHELOR_1">Smart grids et production d'énergie décentralisée</string>
+    <string name="EDU_ELECTIVE_BACHELOR_2">Matlab/Simulink en automatisation</string>
+    <string name="EDU_ELECTIVE_BACHELOR_3">Notions de pédagogie pour formateurs</string>
+    <!-- EDU APPRENTICESHIP -->
+    <string name="EDU_DATE_APPRENTICESHIP">September 2016 – Juni 2019</string>
+    <string name="EDU_TITLE_APPRENTICESHIP">Mécatronicien (certificat professionnel)</string>
+    <!-- EDU SCHOOL -->
+    <string name="EDU_DATE_SCHOOL">août 2008 – juin 2016</string>
+    <string name="EDU_TILE_SCHOOL">Baccalauréat (diplôme de fin d'études secondaires)</string>
+    <!-- PROJECTS -->
+    <string name="PROJECT_1_TITLE">Mémoire de Master</string>
+    <string name="PROJECT_1_DESCRIPTION"><![CDATA[Dans le cadre de mon mémoire de Master, j'ai développé chez <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> une structure de composants orientée objet pour le traitement et la visualisation de données 3D issues de capteurs pour le logiciel d'automatisation interne <i>x-line</i>.]]></string>
+    <string name="PROJECT_2_TITLE">Plugin de gestion d'inventaire</string>
+    <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin pour <a href="https://www.admidio.org" target="_blank">Admidio</a> pour la gestion des stocks d'une organisation Admidio.]]></string>
+    <string name="PROJECT_2_BUTTON">Voir le projet (Github)</string>
+    <string name="PROJECT_3_TITLE">Mémoire de Bachelor</string>
+    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Dans le cadre de mon mémoire de Bachelor, j'ai développé chez <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> une gestion complète des publications pour le logiciel d'automatisation interne <i>x-line</i>, automatisant entièrement les étapes manuelles.]]></string>
+    <string name="PROJECT_4_TITLE">Application web de gestion de partitions</string>
+    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Application web du <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> pour la gestion numérique et la distribution de partitions ainsi que pour la création de listes de présence.]]></string>
+    <string name="PROJECT_4_BUTTON">Voir le projet (site web)</string>
+    <!-- VOLUNTARY-WORK -->
+    <string name="VOLUNTEER_TITLE">Le Junge Chor Wallerfangen e.V.</string>
+    <string name="VOLUNTEER_SINCE">depuis décembre 2019</string>
+    <string name="VOLUNTEER_ROLE">Responsable des partitions &amp; Administrateur serveur</string>
+    <string name="VOLUNTEER_TEXT1"><![CDATA[Le <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> est un chœur mixte d'environ 45 chanteurs actifs, spécialisé dans l'interprétation de répertoires profanes et sacrés.]]></string>
+    <string name="VOLUNTEER_TEXT2">En 2016, j'ai rejoint le chœur en tant que chanteur (ténor) et en 2019, j'ai assumé la fonction de responsable des partitions. Dans ce rôle, je suis principalement chargé de la gestion et de la distribution des partitions.</string>
+    <string name="VOLUNTEER_TEXT3">Au fil de mon mandat au sein du comité directeur et de la refonte de la présence en ligne du chœur, j'ai pris en charge l'administration du serveur. Dans ce rôle, je suis responsable de la maintenance et de l'exploitation de la gestion des membres en ligne (Intranet), de l'instance Nextcloud et de l'application web de gestion des partitions développée en interne.</string>
+    <!-- CONTACT -->
+    <string name="FORM_NAME">Nom</string>
+    <string name="FORM_EMAIL">Email</string>
+    <string name="FORM_MESSAGE">Message</string>
+    <string name="FORM_SEND">Envoyer</string>
+</resources>

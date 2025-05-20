@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <!-- LANGUAGES -->
+    <string name="LANG_GERMAN">🇩🇪 German</string>
+    <string name="LANG_ENGLISH">🇬🇧 English</string>
+    <string name="LANG_FRENCH">🇫🇷 French</string>
+    <!-- HEADLINES -->
+    <string name="HEADING_ABOUT">About Me</string>
+    <string name="HEADING_EXPERIENCE">Experience</string>
+    <string name="HEADING_EDUCATION">Education</string>
+    <string name="HEADING_PROJECTS">Projects</string>
+    <string name="HEADING_SKILLS">Skills</string>
+    <string name="HEADING_VOLUNTARY_WORK">Volunteer Work</string>
+    <string name="HEADING_CONTACT">Contact</string>
+    <!-- LEAD -->
+    <string name="LEAD_TYPE_1">Mechatronics Technician</string>
+    <string name="LEAD_TYPE_2">Automation Technician</string>
+    <string name="LEAD_TYPE_3">Electrical and Information Technology Engineer</string>
+    <string name="LEAD_TYPE_4">Technology Enthusiast</string>
+    <string name="LEAD_TYPE_5">Software Developer</string>
+    <string name="LEAD_TYPE_6">Web Developer</string>
+    <string name="LEAD_TYPE_7">Open-Source Enthusiast</string>
+    <string name="LEAD_TYPE_8">Creative Thinker and Team Player</string>
+    <string name="LEAD_TYPE_9">Dedicated Singer and Musician</string>
+    <!-- ABOUT -->
+    <string name="ABOUT_INTRO_HEADING">Hello, I am Mathias,</string>
+    <string name="ABOUT_INTRO_TEXT1">27 years old and a passionate engineer with an eye for both the big picture and the details.</string>
+    <string name="ABOUT_INTRO_TEXT2"><![CDATA[After my training as a mechatronics technician, I completed both my Bachelor's and Master's in Electrical and Information Technology at <a href="https://www.htwsaar.de/" target="_blank">htw saar</a>.]]></string>
+    <string name="ABOUT_INTRO_TEXT3">Whether it is programming embedded systems, automating manufacturing and testing processes, or developing bespoke software: I love analyzing complex technical challenges and implementing pragmatic solutions with a creative approach.</string>
+    <string name="ABOUT_INTRO_TEXT4">In my free time, I find balance in badminton, making music, and singing in a choir. Playing the piano and organ, as well as singing with the Junge Chor Wallerfangen, recharges my energy for my technical projects.</string>
+    <!-- EXPERIENCE -->
+    <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
+    <!-- EXP MASTER -->
+    <string name="EXP_DATE_MASTER">October 2023 – April 2025</string>
+    <string name="EXP_TITLE_MASTER">Cooperative Student (Master's Candidate)</string>
+    <string name="EXP_DESC_MASTER">Cooperative Master's studies in Electrical and Information Technology with a specialization in electromobility and autonomous driving.</string>
+    <string name="EXP_THESIS_LABEL_MASTER">Thesis Topic:</string>
+    <string name="EXP_THESIS_MASTER">Development of an object-oriented component structure for processing and visualizing 3D sensor data</string>
+    <!-- EXP BACHELOR -->
+    <string name="EXP_DATE_BACHELOR">October 2019 – September 2023</string>
+    <string name="EXP_TITLE_BACHELOR">Cooperative Student (Bachelor Candidate)</string>
+    <string name="EXP_DESC_BACHELOR">Cooperative Bachelor's studies in Electrical and Information Technology with a specialization in automation technology.</string>
+    <string name="EXP_THESIS_LABEL_BACHELOR">Thesis Topic:</string>
+    <string name="EXP_THESIS_BACHELOR">Design and implementation of an automated release management system for the automation software x-line</string>
+    <!-- EXP MONTEUR -->
+    <string name="EXP_DATE_MONTEUR">June 2019 – September 2019</string>
+    <string name="EXP_TITLE_MONTEUR">Installer (Electrical)</string>
+    <string name="EXP_DESC_MONTEUR">Temporary employment as an installer until the start of my studies.</string>
+    <!-- EXP APPRENTICESHIP -->
+    <string name="EXP_DATE_APPRENTICESHIP">September 2016 – June 2019</string>
+    <string name="EXP_TITLE_APPRENTICESHIP">Apprenticeship as a Mechatronics Technician</string>
+    <string name="EXP_DESC_APPRENTICESHIP">On-the-job training as a mechatronics technician.</string>
+    <!-- EDUCATION -->
+    <string name="EDU_HTW_SAAR">University of Applied Sciences for Technology and Economy of Saarland</string>
+    <string name="EDU_BBZ_SULZBACH">Sulzbach Vocational Training Center</string>
+    <string name="EDU_GYMNASIUM">Albert-Schweitzer-Gymnasium Dillingen</string>
+    <!-- EDU MASTER -->
+    <string name="EDU_DATE_MASTER">October 2023 – April 2025</string>
+    <string name="EDU_TITLE_MASTER">Master of Science in Electrical and Information Technology</string>
+    <string name="EDU_SPECIALIZATION_MASTER">Specialization: Electromobility and Autonomous Driving</string>
+    <string name="EDU_ELECTIVES_LABEL_MASTER">Completed Elective Modules:</string>
+    <string name="EDU_ELECTIVE_MASTER_1">Software Development with C/C++</string>
+    <string name="EDU_ELECTIVE_MASTER_2">Next Generation Networks</string>
+    <string name="EDU_ELECTIVE_MASTER_3">Hardware Implementation of Digital Algorithms in DSP and FPGA</string>
+    <string name="EDU_ELECTIVE_MASTER_4">Industrial Robotics</string>
+    <!-- EDU BACHELOR -->
+    <string name="EDU_DATE_BACHELOR">October 2019 – September 2023</string>
+    <string name="EDU_TITLE_BACHELOR">Bachelor of Engineering in Electrical and Information Technology</string>
+    <string name="EDU_SPECIALIZATION_BACHELOR">Specialization: Automation Technology</string>
+    <string name="EDU_ELECTIVES_LABEL_BACHELOR">Completed Elective Modules:</string>
+    <string name="EDU_ELECTIVE_BACHELOR_1">Smart Grids and Decentralized Energy Generation</string>
+    <string name="EDU_ELECTIVE_BACHELOR_2">MATLAB/Simulink in Automation Technology</string>
+    <string name="EDU_ELECTIVE_BACHELOR_3">Basics of Instructor Competence</string>
+    <!-- EDU APPRENTICESHIP -->
+    <string name="EDU_DATE_APPRENTICESHIP">September 2016 – June 2019</string>
+    <string name="EDU_TITLE_APPRENTICESHIP">Mechatronics Technician (Skilled Worker Certificate)</string>
+    <!-- EDU SCHOOL -->
+    <string name="EDU_DATE_SCHOOL">August 2008 – June 2016</string>
+    <string name="EDU_TILE_SCHOOL">High School Diploma (General University Entrance Qualification)</string>
+    <!-- PROJECTS -->
+    <string name="PROJECT_1_TITLE">Master Thesis</string>
+    <string name="PROJECT_1_DESCRIPTION"><![CDATA[During my Master Thesis, I developed an object-oriented component structure for processing and visualizing 3D sensor data for the in-house automation software <i>x-line</i> at <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a>.]]></string>
+    <string name="PROJECT_2_TITLE">Inventory Management Plugin</string>
+    <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin for <a href="https://www.admidio.org" target="_blank">Admidio</a> to manage the inventory stocks of an Admidio organization.]]></string>
+    <string name="PROJECT_2_BUTTON">View Project (Github)</string>
+    <string name="PROJECT_3_TITLE">Bachelor Thesis</string>
+    <string name="PROJECT_3_DESCRIPTION"><![CDATA[During my Bachelor Thesis, I developed a comprehensive release management system for the in-house automation software <i>x-line</i> at <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> that fully automates manual steps.]]></string>
+    <string name="PROJECT_4_TITLE">Sheet Music Management Web App</string>
+    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Web app of the <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> for the digital management and distribution of choir sheet music, and the creation of attendance lists.]]></string>
+    <string name="PROJECT_4_BUTTON">View Project (Website)</string>
+    <!-- VOLUNTARY-WORK -->
+    <string name="VOLUNTEER_TITLE">The Junge Chor Wallerfangen e.V.</string>
+    <string name="VOLUNTEER_SINCE">since December 2019</string>
+    <string name="VOLUNTEER_ROLE">Sheet Music Treasurer &amp; Server Administrator</string>
+    <string name="VOLUNTEER_TEXT1"><![CDATA[The <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> is a mixed choir with about 45 active singers, specializing in both secular and sacred music.]]></string>
+    <string name="VOLUNTEER_TEXT2">In 2016, I first joined the choir as a singer (tenor) and in 2019, I took on the role of sheet music treasurer. In this position, I am primarily responsible for the management and distribution of choir sheet music.</string>
+    <string name="VOLUNTEER_TEXT3">During my time on the board and the restructuring of the choir's online presence, I assumed server administration responsibilities. In this role, I am responsible for the maintenance and operation of the online member management (Intranet), the Nextcloud instance, and the custom-developed sheet music management web app.</string>
+    <!-- CONTACT -->
+    <string name="FORM_NAME">Name</string>
+    <string name="FORM_EMAIL">E-Mail</string>
+    <string name="FORM_MESSAGE">Message</string>
+    <string name="FORM_SEND">Send</string>
+</resources>
