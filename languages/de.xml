@@ -27,7 +27,7 @@
     <string name="ABOUT_INTRO_TEXT1">27 Jahre alt und leidenschaftlicher Ingenieur mit dem Blick fürs Große und fürs Detail.</string>
     <string name="ABOUT_INTRO_TEXT2"><![CDATA[Nach meiner Ausbildung zum Mechatroniker habe ich an der <a href="https://www.htwsaar.de/" target="_blank">htw saar</a> sowohl meinen Bachelor als auch meinen Master in Elektro- und Informationstechnik abgeschlossen.]]></string>
     <string name="ABOUT_INTRO_TEXT3">Ob es um die Programmierung von eingebetteten Systemen geht, die Automatisierung von Fertigungs- und Prüfprozessen oder die Entwicklung maßgeschneiderter Software: Ich liebe es, komplexe technische Herausforderungen zu analysieren und mit kreativem Ansatz pragmatische Lösungen zu realisieren.</string>
-    <string name="ABOUT_INTRO_TEXT4">Privat finde ich Ausgleich beim Badminton, Musizieren und im Chor. Beim Spielen von Klavier und Orgel sowie beim Singen im Jungen Chor Wallerfangen schöpfe ich neue Energie für meine technischen Projekte.</string>
+    <string name="ABOUT_INTRO_TEXT4">Privat finde ich Ausgleich beim Badminton, Musizieren und Singen. Beim Spielen von Klavier und Orgel sowie beim Singen im Jungen Chor Wallerfangen schöpfe ich neue Energie für meine technischen Projekte.</string>
     <!-- EXPERIENCE -->
     <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
     <!-- EXP MASTER -->
@@ -79,7 +79,7 @@
     <string name="EDU_TILE_SCHOOL">Abitur (allgemeine Hochschulreife)</string>
     <!-- PROJECTS -->
     <string name="PROJECT_1_TITLE">Masterarbeit</string>
-    <string name="PROJECT_1_DESCRIPTION"><![CDATA[Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ich eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>]]></string>
+    <string name="PROJECT_1_DESCRIPTION"><![CDATA[Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>]]></string>
     <string name="PROJECT_2_TITLE">Plugin Inventarverwaltung</string>
     <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin für <a href="https://www.admidio.org" target="_blank">Admidio</a> zur Verwaltung von Inventarbeständen einer Admidio-Organisation.]]></string>
     <string name="PROJECT_2_BUTTON">Projekt anzeigen (Github)</string>
