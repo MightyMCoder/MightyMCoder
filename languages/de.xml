@@ -94,7 +94,7 @@
     <string name="VOLUNTEER_ROLE">Notenwart &amp; Server-Administrator</string>
     <string name="VOLUNTEER_TEXT1"><![CDATA[Der <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> ist ein gemischter Chor mit ca. 45 aktiven Sängerinnen und Sängern, der sich auf die Aufführung von sowohl weltlichem als auch geistlichem Liedgut spezialisiert hat.]]></string>
     <string name="VOLUNTEER_TEXT2">2016 bin ich dem Chor zunächst als Sänger (Tenor) beigetreten und habe 2019 die Position des Notenwarts übernommen. In dieser Funktion bin ich primär für die Verwaltung und Verteilung der Chornoten verantwortlich.</string>
-    <string name="VOLUNTEER_TEXT3">Im Laufe meiner Vorstandstätigkeit und der Umsrukurierung des Online-Aufrittes des Chores habe ich die Server-Administration übernommen. In dieser Funktion bin ich für die Wartung und den Betrieb der Online-Mitgliederverwalung (Intranet), der Nexcloud-Instanz und der eigenst entwickelten Notenverwaltung Web-App verantwortlich.</string>
+    <string name="VOLUNTEER_TEXT3">Im Laufe meiner Vorstandstätigkeit und der Umstrukurierung des Online-Aufrittes des Chores habe ich die Server-Administration übernommen. In dieser Funktion bin ich für die Wartung und den Betrieb der Online-Mitgliederverwalung (Intranet), der Nexcloud-Instanz und der eigenst entwickelten Notenverwaltung Web-App verantwortlich.</string>
     <!-- CONTACT -->
     <string name="FORM_NAME">Name</string>
     <string name="FORM_EMAIL">E-Mail</string>
