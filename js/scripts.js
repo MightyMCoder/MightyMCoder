@@ -36,7 +36,7 @@
             this.$body = $('body');
             this.$header = $('header');
             this.$currentYear = $('#current-year');
-            this.$menu = $('#menu');
+            this.$menu = document.getElementById('menu');
             this.$languageSwitcher = $('#language-switcher');
             this.$mobileMenuOpen = $('#mobile-menu-open');
             this.$mobileMenuClose = $('#mobile-menu-close');
@@ -105,7 +105,7 @@
 
             const targetId = anchor.getAttribute('href');
             const targetElement = document.querySelector(targetId);
-            const headerOffset = this.$menu.length ? this.$menu.offset().height : 0;
+            const headerOffset = this.$menu.offsetHeight;
 
             if (targetElement) {
                 const scrollDistance = targetElement.getBoundingClientRect().top + window.pageYOffset - headerOffset;
