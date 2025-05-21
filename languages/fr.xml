@@ -88,6 +88,17 @@
     <string name="PROJECT_4_TITLE">Application web de gestion de partitions</string>
     <string name="PROJECT_4_DESCRIPTION"><![CDATA[Application web du <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> pour la gestion numérique et la distribution de partitions ainsi que pour la création de listes de présence.]]></string>
     <string name="PROJECT_4_BUTTON">Voir le projet (site web)</string>
+    <string name="PROJECT_5_TITLE">Suiveur solaire Arduino</string>
+    <string name="PROJECT_5_DESCRIPTION_1"><![CDATA[Dans le cadre du module optionnel de Master <i>Développement logiciel avec C/C++</i>, j'ai développé, sous forme de projet, un suiveur solaire à deux axes. Le système ajuste automatiquement un panneau solaire de manière optimale en fonction de la lumière du soleil. Un Arduino Uno est utilisé pour le contrôle des mouvements et l'analyse des données des capteurs.]]></string>
+    <string name="PROJECT_5_DESCRIPTION_2"><![CDATA[Outre le développement du concept et la conception logicielle, une maquette matérielle a d'abord été réalisée dans l'environnement de simulation en ligne <a href="https://wokwi.com/" target="_blank">Wokwi</a> puis avec des pièces imprimées en 3D, utilisée pour les tests logiciels.]]></string>
+    <string name="PROJECT_6_TITLE">Synthétiser de la musique à l'aide de DSP et FPGA</string>
+    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[Dans le cadre du cours optionnel de Master <i>Implémentation matérielle d'algorithmes numériques sur DSP et FPGA</i>, l'urgence de disposer de plateformes matérielles performantes telles que DSP et FPGA a été soulignée. Ce projet met en lumière l'implémentation pratique d'algorithmes numériques, illustrée par la réalisation de filtres IIR et la synthèse musicale.]]></string>
+    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Grâce aux algorithmes implémentés pour le traitement du signal, permettant de transformer un signal sinusoïdal harmonique en un instrument numérique, le projet a pu se conclure par une version numérique du morceau <i>Für Elise</i>.]]></string>
+    <string name="PROJECT_7_TITLE">Refonte du banc d'essai FU</string>
+    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[Pendant mes études de Bachelor, dans le cadre du module <i>Automatisation des processus</i>, un banc d'essai pour convertisseurs de fréquence a été repensé. Outre le contrôle, réalisé à l'aide de Tia Portal, l'ensemble de la structure matérielle a été révisé.]]></string>
+    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Les dessins techniques correspondants ont été réalisés avec Inventor et les schémas électriques nécessaires avec EPLAN. Enfin, la mise en place du matériel a été effectuée et le banc d'essai a été mis en service.]]></string>
+    <string name="PROJECTS_SHOW_MORE">Afficher plus de projets</string>
+    <string name="PROJECTS_SHOW_LESS">Afficher moins de projets</string>
     <!-- VOLUNTARY-WORK -->
     <string name="VOLUNTEER_TITLE">Le Junge Chor Wallerfangen e.V.</string>
     <string name="VOLUNTEER_SINCE">depuis décembre 2019</string>

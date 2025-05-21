@@ -1,10 +1,17 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+    Title: Personal Portfolio MightyMCoder (CSS)
+    Version: 1.0.0
+    Last Change: 05/21/2025
+    Author: MightyMCoder
+    Repo: https://github.com/MightyMCoder/MightyMCoder
+
+    based on:
+        Title: Dev Portfolio Template
+        Version: 1.2.2
+        Last Change: 03/25/2020
+        Author: Ryan Fitzgerald
+        Repo: https://github.com/RyanFitzgerald/devportfolio-template
+        Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
@@ -779,6 +786,10 @@ a {
 }
 
 .project-image {
+    display: flex;
+    justify-content: center; /* horizontal zentrieren */
+    align-items: center;     /* vertikal zentrieren (falls nötig) */
+
     flex: 0 0 300px;           // fixe Bild-Breite
     border-radius: 4px 0 0 4px;
     align-self: stretch;     // ← zwingt nur den Bild-Container, die volle Höhe zu nehmen
