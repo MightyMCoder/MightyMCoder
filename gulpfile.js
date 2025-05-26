@@ -47,4 +47,4 @@ gulp.task('watch', function() {
 });
 
 // build command
-exports.build = parallel(scripts, styles);
+exports.build = parallel('scripts', 'styles');
