@@ -871,6 +871,17 @@ a {
         cursor: default;
         font-size: 1.2em;
     }
+
+    /* Increase badge size */
+    .badge {
+        font-size: 1em;
+        padding: 0.75em 1em;
+        background: color.adjust($background-alt, $lightness: -5%);
+    }
+    /* Increase icon size inside badges */
+    .badge i {
+        font-size: 1em;
+    }
 }
 
 /*

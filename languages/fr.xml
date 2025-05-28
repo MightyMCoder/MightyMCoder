@@ -31,23 +31,23 @@
     <!-- EXPERIENCE -->
     <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
     <!-- EXP MASTER -->
-    <string name="EXP_DATE_MASTER">Oktober 2023 – April 2025</string>
+    <string name="EXP_DATE_MASTER">Octobre 2023 – Avril 2025</string>
     <string name="EXP_TITLE_MASTER">Étudiant en alternance (Master)</string>
     <string name="EXP_DESC_MASTER">Master en alternance en électrotechnique et technologies de l'information, avec une spécialisation en électromobilité et conduite autonome.</string>
     <string name="EXP_THESIS_LABEL_MASTER">Sujet de mémoire :</string>
     <string name="EXP_THESIS_MASTER">Développement d'une structure de composants orientée objet pour le traitement et la visualisation de données 3D issues de capteurs</string>
     <!-- EXP BACHELOR -->
-    <string name="EXP_DATE_BACHELOR">Oktober 2019 – September 2023</string>
+    <string name="EXP_DATE_BACHELOR">Octobre 2019 – Septembre 2023</string>
     <string name="EXP_TITLE_BACHELOR">Étudiant en alternance (Bachelor)</string>
     <string name="EXP_DESC_BACHELOR">Bachelor en alternance en électrotechnique, avec spécialisation en automatisation.</string>
     <string name="EXP_THESIS_LABEL_BACHELOR">Sujet de mémoire :</string>
     <string name="EXP_THESIS_BACHELOR">Conception et mise en place d'une gestion des publications automatisée pour le logiciel d'automatisation x-line</string>
     <!-- EXP MONTEUR -->
-    <string name="EXP_DATE_MONTEUR">Juni 2019 – September 2019</string>
+    <string name="EXP_DATE_MONTEUR">Juin 2019 – Septembre 2019</string>
     <string name="EXP_TITLE_MONTEUR">Monteur (électricien)</string>
     <string name="EXP_DESC_MONTEUR">Emploi temporaire comme monteur jusqu'au début des études.</string>
     <!-- EXP APPRENTICESHIP -->
-    <string name="EXP_DATE_APPRENTICESHIP">September 2016 – Juni 2019</string>
+    <string name="EXP_DATE_APPRENTICESHIP">Septembre 2016 – Juin 2019</string>
     <string name="EXP_TITLE_APPRENTICESHIP">Formation de mécatronicien</string>
     <string name="EXP_DESC_APPRENTICESHIP">Formation en entreprise de mécatronicien.</string>
     <!-- EDUCATION -->
@@ -55,7 +55,7 @@
     <string name="EDU_BBZ_SULZBACH">Centre de formation professionnelle de Sulzbach</string>
     <string name="EDU_GYMNASIUM">Lycée Albert-Schweitzer de Dillingen</string>
     <!-- EDU MASTER -->
-    <string name="EDU_DATE_MASTER">Oktober 2023 – April 2025</string>
+    <string name="EDU_DATE_MASTER">Octobre 2023 – Avril 2025</string>
     <string name="EDU_TITLE_MASTER">Master of Science en électrotechnique et technologies de l'information</string>
     <string name="EDU_SPECIALIZATION_MASTER">Spécialisation : électromobilité et conduite autonome</string>
     <string name="EDU_ELECTIVES_LABEL_MASTER">Modules optionnels suivis :</string>
@@ -63,8 +63,12 @@
     <string name="EDU_ELECTIVE_MASTER_2">Réseaux de nouvelle génération</string>
     <string name="EDU_ELECTIVE_MASTER_3">Implémentation matérielle d'algorithmes numériques sur DSP et FPGA</string>
     <string name="EDU_ELECTIVE_MASTER_4">Robotique industrielle</string>
+    <!-- EDU AUSBILDEREIGUNG -->
+    <string name="EDU_DATE_AUSBILDEREIGNUNG">Octobre 2022</string>
+    <string name="EDU_TITLE_AUSBILDEREIGNUNG">Certificat : Aptitude à la formation (délivré : Février 2025)</string>
+    <string name="EDU_DESCRIPTION_AUSBILDEREIGNUNG"><![CDATA[Dans le cadre du module optionnel du Bachelor <i>Notions de pédagogie pour formateurs</i>, j'ai reçu un certificat de l'IHK Saarland, me permettant d'exercer en tant que formateur.]]></string>
     <!-- EDU BACHELOR -->
-    <string name="EDU_DATE_BACHELOR">Oktober 2019 – September 2023</string>
+    <string name="EDU_DATE_BACHELOR">Octobre 2019 – Septembre 2023</string>
     <string name="EDU_TITLE_BACHELOR">Bachelor of Engineering en électrotechnique et technologies de l'information</string>
     <string name="EDU_SPECIALIZATION_BACHELOR">Spécialisation : automatisation</string>
     <string name="EDU_ELECTIVES_LABEL_BACHELOR">Modules optionnels suivis :</string>
@@ -72,31 +76,34 @@
     <string name="EDU_ELECTIVE_BACHELOR_2">Matlab/Simulink en automatisation</string>
     <string name="EDU_ELECTIVE_BACHELOR_3">Notions de pédagogie pour formateurs</string>
     <!-- EDU APPRENTICESHIP -->
-    <string name="EDU_DATE_APPRENTICESHIP">September 2016 – Juni 2019</string>
+    <string name="EDU_DATE_APPRENTICESHIP">Septembre 2016 – Juin 2019</string>
     <string name="EDU_TITLE_APPRENTICESHIP">Mécatronicien (certificat professionnel)</string>
     <!-- EDU SCHOOL -->
-    <string name="EDU_DATE_SCHOOL">août 2008 – juin 2016</string>
+    <string name="EDU_DATE_SCHOOL">Août 2008 – Juin 2016</string>
     <string name="EDU_TILE_SCHOOL">Baccalauréat (diplôme de fin d'études secondaires)</string>
     <!-- PROJECTS -->
     <string name="PROJECT_1_TITLE">Mémoire de Master</string>
     <string name="PROJECT_1_DESCRIPTION"><![CDATA[Dans le cadre de mon mémoire de Master, j'ai développé chez <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> une structure de composants orientée objet pour le traitement et la visualisation de données 3D issues de capteurs pour le logiciel d'automatisation interne <i>x-line</i>.]]></string>
     <string name="PROJECT_2_TITLE">Plugin de gestion d'inventaire</string>
     <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin pour <a href="https://www.admidio.org" target="_blank">Admidio</a> pour la gestion des stocks d'une organisation Admidio.]]></string>
-    <string name="PROJECT_2_BUTTON">Voir le projet (Github)</string>
-    <string name="PROJECT_3_TITLE">Mémoire de Bachelor</string>
-    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Dans le cadre de mon mémoire de Bachelor, j'ai développé chez <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> une gestion complète des publications pour le logiciel d'automatisation interne <i>x-line</i>, automatisant entièrement les étapes manuelles.]]></string>
-    <string name="PROJECT_4_TITLE">Application web de gestion de partitions</string>
-    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Application web du <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> pour la gestion numérique et la distribution de partitions ainsi que pour la création de listes de présence.]]></string>
-    <string name="PROJECT_4_BUTTON">Voir le projet (site web)</string>
-    <string name="PROJECT_5_TITLE">Suiveur solaire Arduino</string>
-    <string name="PROJECT_5_DESCRIPTION_1"><![CDATA[Dans le cadre du module optionnel de Master <i>Développement logiciel avec C/C++</i>, j'ai développé, sous forme de projet, un suiveur solaire à deux axes. Le système ajuste automatiquement un panneau solaire de manière optimale en fonction de la lumière du soleil. Un Arduino Uno est utilisé pour le contrôle des mouvements et l'analyse des données des capteurs.]]></string>
-    <string name="PROJECT_5_DESCRIPTION_2"><![CDATA[Outre le développement du concept et la conception logicielle, une maquette matérielle a d'abord été réalisée dans l'environnement de simulation en ligne <a href="https://wokwi.com/" target="_blank">Wokwi</a> puis avec des pièces imprimées en 3D, utilisée pour les tests logiciels.]]></string>
-    <string name="PROJECT_6_TITLE">Synthétiser de la musique à l'aide de DSP et FPGA</string>
-    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[Dans le cadre du cours optionnel de Master <i>Implémentation matérielle d'algorithmes numériques sur DSP et FPGA</i>, l'urgence de disposer de plateformes matérielles performantes telles que DSP et FPGA a été soulignée. Ce projet met en lumière l'implémentation pratique d'algorithmes numériques, illustrée par la réalisation de filtres IIR et la synthèse musicale.]]></string>
-    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Grâce aux algorithmes implémentés pour le traitement du signal, permettant de transformer un signal sinusoïdal harmonique en un instrument numérique, le projet a pu se conclure par une version numérique du morceau <i>Für Elise</i>.]]></string>
-    <string name="PROJECT_7_TITLE">Refonte du banc d'essai FU</string>
-    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[Pendant mes études de Bachelor, dans le cadre du module <i>Automatisation des processus</i>, un banc d'essai pour convertisseurs de fréquence a été repensé. Outre le contrôle, réalisé à l'aide de Tia Portal, l'ensemble de la structure matérielle a été révisé.]]></string>
-    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Les dessins techniques correspondants ont été réalisés avec Inventor et les schémas électriques nécessaires avec EPLAN. Enfin, la mise en place du matériel a été effectuée et le banc d'essai a été mis en service.]]></string>
+    <string name="PROJECT_2_BUTTON">Voir le projet (GitHub)</string>
+    <string name="PROJECT_3_TITLE">Admidio - Gestion en ligne des membres</string>
+    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Depuis janvier 2025, je travaille en tant que développeur sur la plateforme open source <a href="https://www.admidio.org" target="_blank">Admidio</a> et contribue de manière significative à son évolution. Je me concentre sur l'introduction de nouvelles fonctionnalités, l'optimisation de l'interface utilisateur et l'amélioration de l'architecture du système pour offrir aux utilisateurs une expérience encore plus fluide et intuitive.]]></string>
+    <string name="PROJECT_3_BUTTON">Voir le projet (GitHub)</string>
+    <string name="PROJECT_4_TITLE">Mémoire de Bachelor</string>
+    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Dans le cadre de mon mémoire de Bachelor, j'ai développé chez <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> une gestion complète des publications pour le logiciel d'automatisation interne <i>x-line</i>, automatisant entièrement les étapes manuelles.]]></string>
+    <string name="PROJECT_5_TITLE">Application web de gestion de partitions</string>
+    <string name="PROJECT_5_DESCRIPTION"><![CDATA[Application web du <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> pour la gestion numérique et la distribution de partitions ainsi que pour la création de listes de présence.]]></string>
+    <string name="PROJECT_5_BUTTON">Voir le projet (site web)</string>
+    <string name="PROJECT_6_TITLE">Suiveur solaire Arduino</string>
+    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[Dans le cadre du module optionnel de Master <i>Développement logiciel avec C/C++</i>, j'ai développé, sous forme de projet, un suiveur solaire à deux axes. Le système ajuste automatiquement un panneau solaire de manière optimale en fonction de la lumière du soleil. Un Arduino Uno est utilisé pour le contrôle des mouvements et l'analyse des données des capteurs.]]></string>
+    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Outre le développement du concept et la conception logicielle, une maquette matérielle a d'abord été réalisée dans l'environnement de simulation en ligne <a href="https://wokwi.com/" target="_blank">Wokwi</a> puis avec des pièces imprimées en 3D, utilisée pour les tests logiciels.]]></string>
+    <string name="PROJECT_7_TITLE">Synthétiser de la musique à l'aide de DSP et FPGA</string>
+    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[Dans le cadre du cours optionnel de Master <i>Implémentation matérielle d'algorithmes numériques sur DSP et FPGA</i>, l'urgence de disposer de plateformes matérielles performantes telles que DSP et FPGA a été soulignée. Ce projet met en lumière l'implémentation pratique d'algorithmes numériques, illustrée par la réalisation de filtres IIR et la synthèse musicale.]]></string>
+    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Grâce aux algorithmes implémentés pour le traitement du signal, permettant de transformer un signal sinusoïdal harmonique en un instrument numérique, le projet a pu se conclure par une version numérique du morceau <i>Für Elise</i>.]]></string>
+    <string name="PROJECT_8_TITLE">Refonte du banc d'essai FU</string>
+    <string name="PROJECT_8_DESCRIPTION_1"><![CDATA[Pendant mes études de Bachelor, dans le cadre du module <i>Automatisation des processus</i>, un banc d'essai pour convertisseurs de fréquence a été repensé. Outre le contrôle, réalisé à l'aide de Tia Portal, l'ensemble de la structure matérielle a été révisé.]]></string>
+    <string name="PROJECT_8_DESCRIPTION_2"><![CDATA[Les dessins techniques correspondants ont été réalisés avec Inventor et les schémas électriques nécessaires avec EPLAN. Enfin, la mise en place du matériel a été effectuée et le banc d'essai a été mis en service.]]></string>
     <string name="PROJECTS_SHOW_MORE">Afficher plus de projets</string>
     <string name="PROJECTS_SHOW_LESS">Afficher moins de projets</string>
     <!-- VOLUNTARY-WORK -->

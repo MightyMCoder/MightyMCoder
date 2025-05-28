@@ -63,6 +63,10 @@
     <string name="EDU_ELECTIVE_MASTER_2">Next Generation Networks</string>
     <string name="EDU_ELECTIVE_MASTER_3">Hardware Implementierung digitaler Algorithmen in DSP und FPGA</string>
     <string name="EDU_ELECTIVE_MASTER_4">Industrielle Robotik</string>
+    <!-- EDU AUSBILDEREIGUNG -->
+    <string name="EDU_DATE_AUSBILDEREIGNUNG">Oktober 2022</string>
+    <string name="EDU_TITLE_AUSBILDEREIGNUNG">Zertifikat: Ausbildereignung (ausgestellt: Februar 2025)</string>
+    <string name="EDU_DESCRIPTION_AUSBILDEREIGNUNG"><![CDATA[Im Zuge des Bachelor Wahlmoduls <i>Grundlagen der Ausbildereigung</i> habe ich ein Zertifikat der IHK Saarland erhalten, dass mich dazu berechtigt, als Ausbilder tätig zu sein.]]></string>
     <!-- EDU BACHELOR -->
     <string name="EDU_DATE_BACHELOR">Oktober 2019 – September 2023</string>
     <string name="EDU_TITLE_BACHELOR">Bachelor of Engineering Elektro- und Informationstechnik</string>
@@ -79,24 +83,27 @@
     <string name="EDU_TILE_SCHOOL">Abitur (allgemeine Hochschulreife)</string>
     <!-- PROJECTS -->
     <string name="PROJECT_1_TITLE">Masterarbeit</string>
-    <string name="PROJECT_1_DESCRIPTION"><![CDATA[Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>]]></string>
+    <string name="PROJECT_1_DESCRIPTION"><![CDATA[Im Rahmen meiner Masterarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> eine objektorientierte Komponentenstruktur zur Verarbeitung und Visualisierung von 3D-Sensordaten für die hauseigene Automatisierungssoftware <i>x-line</i>.]]></string>
     <string name="PROJECT_2_TITLE">Plugin Inventarverwaltung</string>
     <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin für <a href="https://www.admidio.org" target="_blank">Admidio</a> zur Verwaltung von Inventarbeständen einer Admidio-Organisation.]]></string>
-    <string name="PROJECT_2_BUTTON">Projekt anzeigen (Github)</string>
-    <string name="PROJECT_3_TITLE">Bachelorarbeit</string>
-    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Im Rahmen meiner Bachelorarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ein umfassendes Release-Management für die hauseigene Automatisierungssoftware <i>x-line</i>, das manuelle Schritte vollständig automatisiert.]]></string>
-    <string name="PROJECT_4_TITLE">Notenverwaltung Web-App</string>
-    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Web-App des <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> zur digitalen Verwaltung und Verteilung von Chornoten und Erstellung von Anwesenheitslisten.]]></string>
-    <string name="PROJECT_4_BUTTON">Projekt anzeigen (Website)</string>
-    <string name="PROJECT_5_TITLE">Arduino Solar-Tracker</string>
-    <string name="PROJECT_5_DESCRIPTION_1"><![CDATA[Im Rahmen des Master-Wahlmoduls <i>Softwareentwicklung mit C/C++</i> wurde von mir in Form einer Projektarbeit ein zweiachsiger Solar-Tracker entwickelt. Das System richtet ein Solarmodul automatisch optimal am Sonnenlicht aus. Zur Steuerung der Bewegungsabläufe und Auswertung der Sensordaten wird ein Arduino Uno eingesetzt.]]></string>
-    <string name="PROJECT_5_DESCRIPTION_2"><![CDATA[Neben der Konzeptentwicklung und dem Softwaredesign wurde auch ein Hardwareaufbau, zunächst in der Online-Simulationsumgebung <a href="https://wokwi.com/" target="_blank">Wokwi</a> und anschließend mit 3D-gedruckten Teilen, entwickelt und für die Softwaretests herangezogen.]]></string>
-    <string name="PROJECT_6_TITLE">Synthetisieren von Musik mittels DSP und FPGA</string>
-    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[Im Zuge der Vorlesung des Master-Wahlmoduls <i>Hardware Implementierung digitaler Algorithmen in DSP und FPGA</i> wurde die dringende Notwendigkeit leistungsfähiger Hardwareplattformen wie DSP und FPGA hervorgehoben. Dieses Projekt beleuchtete die praktische Implementierung digitaler Algorithmen, exemplarisch an der Umsetzung von IIR-Filtern und der Musiksynthese.]]></string>
-    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Durch die implementierten Algorihmen zur Signalverarbeitung, um von einem harmonischen Sinussignal zu einem digitalen Instrument zu kommen, konnte das Projekt mit einer digitalen Version des Stückes <i>Für Elise</i> abgeschlossen werden.]]></string>
-    <string name="PROJECT_7_TITLE">Redesign FU-Prüfstand</string>
-    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[Während meines Bachelorstudiums wurde im Zuge des Moduls <i>Prozessautomatisierung</i> ein Frequenzumrichter-Prüfstand redesignt. Dazu wurde neben der Steuerung, die mittels Tia Portal realisiert wurde, der komplette Hardware-Aufbau überarbeitet.]]></string>
-    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Die entsprechenden technischen Zeichnungen wurden mit Inventor erstellt und die notwendigen Stromlaufpläne mit EPLAN realisiert. Abschließend wurde der Hardwareaufbau durchgeführt und der Prüfstand in Betrieb genommen.]]></string>
+    <string name="PROJECT_2_BUTTON">Projekt anzeigen (GitHub)</string>
+    <string name="PROJECT_3_TITLE">Admidio - Online-Mitgliederverwalung</string>
+    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Seit Januar 2025 arbeite ich als Entwickler an der Open-Source-Plattform <a href="https://www.admidio.org" target="_blank">Admidio</a> und trage maßgeblich zur Weiterentwicklung bei. Dabei konzentriere ich mich auf die Einführung neuer Features, die Optimierung der Benutzeroberfläche und die Verbesserung der Systemarchitektur, um Anwendern ein noch reibungsloseres und intuitiveres Nutzungserlebnis zu bieten.]]></string>
+    <string name="PROJECT_3_BUTTON">Projekt anzeigen (GitHub)</string>
+    <string name="PROJECT_4_TITLE">Bachelorarbeit</string>
+    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Im Rahmen meiner Bachelorarbeit entwickelte ich bei der <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> ein umfassendes Release-Management für die hauseigene Automatisierungssoftware <i>x-line</i>, das manuelle Schritte vollständig automatisiert.]]></string>
+    <string name="PROJECT_5_TITLE">Notenverwaltung Web-App</string>
+    <string name="PROJECT_5_DESCRIPTION"><![CDATA[Web-App des <a href="https://www.der-junge-chor.de" target="_blank">Jungen Chor Wallerfangen e.V.</a> zur digitalen Verwaltung und Verteilung von Chornoten und Erstellung von Anwesenheitslisten.]]></string>
+    <string name="PROJECT_5_BUTTON">Projekt anzeigen (Website)</string>
+    <string name="PROJECT_6_TITLE">Arduino Solar-Tracker</string>
+    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[Im Rahmen des Master-Wahlmoduls <i>Softwareentwicklung mit C/C++</i> wurde von mir in Form einer Projektarbeit ein zweiachsiger Solar-Tracker entwickelt. Das System richtet ein Solarmodul automatisch optimal am Sonnenlicht aus. Zur Steuerung der Bewegungsabläufe und Auswertung der Sensordaten wird ein Arduino Uno eingesetzt.]]></string>
+    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Neben der Konzeptentwicklung und dem Softwaredesign wurde auch ein Hardwareaufbau, zunächst in der Online-Simulationsumgebung <a href="https://wokwi.com/" target="_blank">Wokwi</a> und anschließend mit 3D-gedruckten Teilen, entwickelt und für die Softwaretests herangezogen.]]></string>
+    <string name="PROJECT_7_TITLE">Synthetisieren von Musik mittels DSP und FPGA</string>
+    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[Im Zuge der Vorlesung des Master-Wahlmoduls <i>Hardware Implementierung digitaler Algorithmen in DSP und FPGA</i> wurde die dringende Notwendigkeit leistungsfähiger Hardwareplattformen wie DSP und FPGA hervorgehoben. Dieses Projekt beleuchtete die praktische Implementierung digitaler Algorithmen, exemplarisch an der Umsetzung von IIR-Filtern und der Musiksynthese.]]></string>
+    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Durch die implementierten Algorihmen zur Signalverarbeitung, um von einem harmonischen Sinussignal zu einem digitalen Instrument zu kommen, konnte das Projekt mit einer digitalen Version des Stückes <i>Für Elise</i> abgeschlossen werden.]]></string>
+    <string name="PROJECT_8_TITLE">Redesign FU-Prüfstand</string>
+    <string name="PROJECT_8_DESCRIPTION_1"><![CDATA[Während meines Bachelorstudiums wurde im Zuge des Moduls <i>Prozessautomatisierung</i> ein Frequenzumrichter-Prüfstand redesignt. Dazu wurde neben der Steuerung, die mittels Tia Portal realisiert wurde, der komplette Hardware-Aufbau überarbeitet.]]></string>
+    <string name="PROJECT_8_DESCRIPTION_2"><![CDATA[Die entsprechenden technischen Zeichnungen wurden mit Inventor erstellt und die notwendigen Stromlaufpläne mit EPLAN realisiert. Abschließend wurde der Hardwareaufbau durchgeführt und der Prüfstand in Betrieb genommen.]]></string>
     <string name="PROJECTS_SHOW_MORE">Weitere Projekte anzeigen</string>
     <string name="PROJECTS_SHOW_LESS">Weniger Projekte anzeigen</string>
     <!-- VOLUNTARY-WORK -->

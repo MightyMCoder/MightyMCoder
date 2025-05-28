@@ -63,6 +63,10 @@
     <string name="EDU_ELECTIVE_MASTER_2">Next Generation Networks</string>
     <string name="EDU_ELECTIVE_MASTER_3">Hardware Implementation of digital Algorithms in DSP and FPGA</string>
     <string name="EDU_ELECTIVE_MASTER_4">Industrial Robotics</string>
+    <!-- EDU AUSBILDEREIGUNG -->
+    <string name="EDU_DATE_AUSBILDEREIGNUNG">October 2022</string>
+    <string name="EDU_TITLE_AUSBILDEREIGNUNG">Certificate: Instructor Aptitude (issued: February 2025)</string>
+    <string name="EDU_DESCRIPTION_AUSBILDEREIGNUNG"><![CDATA[As part of the Bachelor elective module <i>Basics of Instructor Competence</i>, I received a certificate from the IHK Saarland that qualifies me to work as an instructor.]]></string>
     <!-- EDU BACHELOR -->
     <string name="EDU_DATE_BACHELOR">October 2019 – September 2023</string>
     <string name="EDU_TITLE_BACHELOR">Bachelor of Engineering in Electrical and Information Technology</string>
@@ -82,21 +86,24 @@
     <string name="PROJECT_1_DESCRIPTION"><![CDATA[During my Master Thesis, I developed an object-oriented component structure for processing and visualizing 3D sensor data for the in-house automation software <i>x-line</i> at <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a>.]]></string>
     <string name="PROJECT_2_TITLE">Inventory Management Plugin</string>
     <string name="PROJECT_2_DESCRIPTION"><![CDATA[Plugin for <a href="https://www.admidio.org" target="_blank">Admidio</a> to manage the inventory stocks of an Admidio organization.]]></string>
-    <string name="PROJECT_2_BUTTON">View Project (Github)</string>
-    <string name="PROJECT_3_TITLE">Bachelor Thesis</string>
-    <string name="PROJECT_3_DESCRIPTION"><![CDATA[During my Bachelor Thesis, I developed a comprehensive release management system for the in-house automation software <i>x-line</i> at <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> that fully automates manual steps.]]></string>
-    <string name="PROJECT_4_TITLE">Sheet Music Management Web App</string>
-    <string name="PROJECT_4_DESCRIPTION"><![CDATA[Web app of the <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> for the digital management and distribution of choir sheet music, and the creation of attendance lists.]]></string>
-    <string name="PROJECT_4_BUTTON">View Project (Website)</string>
-    <string name="PROJECT_5_TITLE">Arduino Solar Tracker</string>
-    <string name="PROJECT_5_DESCRIPTION_1"><![CDATA[As part of the master's elective module <i>Software Development with C/C++</i>, I developed a two-axis solar tracker in a project. The system automatically positions a solar panel optimally to the sunlight. An Arduino Uno is used to control the movement sequences and process the sensor data.]]></string>
-    <string name="PROJECT_5_DESCRIPTION_2"><![CDATA[In addition to concept development and software design, a hardware setup was first built in the online simulation environment <a href="https://wokwi.com/" target="_blank">Wokwi</a> and later with 3D-printed parts, which were used for the software tests.]]></string>
-    <string name="PROJECT_6_TITLE">Music Synthesis Using DSP and FPGA</string>
-    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[In the context of the master's elective module <i>Hardware Implementation of Digital Algorithms in DSP and FPGA</i>, the pressing need for high-performance hardware platforms like DSP and FPGA was highlighted. This project demonstrates the practical implementation of digital algorithms, exemplified by the realization of IIR filters and music synthesis.]]></string>
-    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[Using the implemented signal processing algorithms to transform a harmonic sine signal into a digital instrument, the project culminated with a digital version of the piece <i>Für Elise</i>.]]></string>
-    <string name="PROJECT_7_TITLE">Redesign of FU Test Bench</string>
-    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[During my bachelor's studies, a frequency converter test bench was redesigned as part of the module <i>Process Automation</i>. In addition to revising the control system—which was implemented using Tia Portal—the entire hardware setup was overhauled.]]></string>
-    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[The corresponding technical drawings were created with Inventor, and the necessary circuit diagrams were developed using EPLAN. Finally, the hardware setup was assembled and the test bench was commissioned.]]></string>
+    <string name="PROJECT_2_BUTTON">View Project (GitHub)</string>
+    <string name="PROJECT_3_TITLE">Admidio - Online Member Management</string>
+    <string name="PROJECT_3_DESCRIPTION"><![CDATA[Since January 2025, I have been working as a developer on the open-source platform <a href="https://www.admidio.org" target="_blank">Admidio</a> and have been significantly contributing to its further development. I focus on introducing new features, optimizing the user interface, and improving the system architecture to offer users an even smoother and more intuitive experience.]]></string>
+    <string name="PROJECT_3_BUTTON">View Project (GitHub)</string>
+    <string name="PROJECT_4_TITLE">Bachelor Thesis</string>
+    <string name="PROJECT_4_DESCRIPTION"><![CDATA[During my Bachelor Thesis, I developed a comprehensive release management system for the in-house automation software <i>x-line</i> at <a href="https://www.durr.com/de/unternehmen/standorte/duerr-deutschland/duerr-assembly-products-gmbh" target="_blank">Dürr Assembly Products GmbH</a> that fully automates manual steps.]]></string>
+    <string name="PROJECT_5_TITLE">Sheet Music Management Web App</string>
+    <string name="PROJECT_5_DESCRIPTION"><![CDATA[Web app of the <a href="https://www.der-junge-chor.de" target="_blank">Junge Chor Wallerfangen e.V.</a> for the digital management and distribution of choir sheet music, and the creation of attendance lists.]]></string>
+    <string name="PROJECT_5_BUTTON">View Project (Website)</string>
+    <string name="PROJECT_6_TITLE">Arduino Solar Tracker</string>
+    <string name="PROJECT_6_DESCRIPTION_1"><![CDATA[As part of the master's elective module <i>Software Development with C/C++</i>, I developed a two-axis solar tracker in a project. The system automatically positions a solar panel optimally to the sunlight. An Arduino Uno is used to control the movement sequences and process the sensor data.]]></string>
+    <string name="PROJECT_6_DESCRIPTION_2"><![CDATA[In addition to concept development and software design, a hardware setup was first built in the online simulation environment <a href="https://wokwi.com/" target="_blank">Wokwi</a> and later with 3D-printed parts, which were used for the software tests.]]></string>
+    <string name="PROJECT_7_TITLE">Music Synthesis Using DSP and FPGA</string>
+    <string name="PROJECT_7_DESCRIPTION_1"><![CDATA[In the context of the master's elective module <i>Hardware Implementation of Digital Algorithms in DSP and FPGA</i>, the pressing need for high-performance hardware platforms like DSP and FPGA was highlighted. This project demonstrates the practical implementation of digital algorithms, exemplified by the realization of IIR filters and music synthesis.]]></string>
+    <string name="PROJECT_7_DESCRIPTION_2"><![CDATA[Using the implemented signal processing algorithms to transform a harmonic sine signal into a digital instrument, the project culminated with a digital version of the piece <i>Für Elise</i>.]]></string>
+    <string name="PROJECT_8_TITLE">Redesign of FU Test Bench</string>
+    <string name="PROJECT_8_DESCRIPTION_1"><![CDATA[During my bachelor's studies, a frequency converter test bench was redesigned as part of the module <i>Process Automation</i>. In addition to revising the control system—which was implemented using Tia Portal—the entire hardware setup was overhauled.]]></string>
+    <string name="PROJECT_8_DESCRIPTION_2"><![CDATA[The corresponding technical drawings were created with Inventor, and the necessary circuit diagrams were developed using EPLAN. Finally, the hardware setup was assembled and the test bench was commissioned.]]></string>
     <string name="PROJECTS_SHOW_MORE">Show More Projects</string>
     <string name="PROJECTS_SHOW_LESS">Show Fewer Projects</string>
     <!-- VOLUNTARY-WORK -->

@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/1e2a07b672.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
         <link href="css/styles.min.css" rel="stylesheet">
     </head>
@@ -180,6 +180,12 @@
                     </ul>
                 </div>
 
+                <div data-i18n-date="EDU_DATE_AUSBILDEREIGNUNG">
+                    <h3 data-i18n="EDU_HTW_SAAR"></h3>
+                    <h4 data-i18n="EDU_TITLE_AUSBILDEREIGNUNG"></h4>
+                    <p data-i18n="EDU_DESCRIPTION_AUSBILDEREIGNUNG"></p>
+
+                </div>
                 <!-- Bachelor -->
                 <div data-i18n-date="EDU_DATE_BACHELOR">
                     <h3 data-i18n="EDU_HTW_SAAR"></h3>
@@ -241,11 +247,25 @@
 
                     <div class="project shadow-large">
                         <div class="project-image shadow-large">
-                            <img src="images/Bachelor_Thesis.png" alt="Bachelor-Thesis"/>
+                            <img src="images/Admidio.png" alt="Admidio"/>
                         </div>
+                        <!-- End .project-image -->
                         <div class="project-info">
                             <h3 data-i18n="PROJECT_3_TITLE"></h3>
                             <p data-i18n="PROJECT_3_DESCRIPTION"></p>
+                            <a class="btn btn-primary" type="button" href="https://github.com/Admidio/admidio" target="_blank" data-i18n="PROJECT_2_BUTTON"></a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project Admidio -->
+
+                    <div class="project shadow-large">
+                        <div class="project-image shadow-large">
+                            <img src="images/Bachelor_Thesis.png" alt="Bachelor-Thesis"/>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="PROJECT_4_TITLE"></h3>
+                            <p data-i18n="PROJECT_4_DESCRIPTION"></p>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -257,9 +277,9 @@
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
-                            <h3 data-i18n="PROJECT_4_TITLE"></h3>
-                            <p data-i18n="PROJECT_4_DESCRIPTION"></p>
-                            <a class="btn btn-primary" type="button" href="https://notenverwaltung.der-junge-chor.de/" target="_blank" data-i18n="PROJECT_4_BUTTON"></a>
+                            <h3 data-i18n="PROJECT_5_TITLE"></h3>
+                            <p data-i18n="PROJECT_5_DESCRIPTION"></p>
+                            <a class="btn btn-primary" type="button" href="https://notenverwaltung.der-junge-chor.de/" target="_blank" data-i18n="PROJECT_5_BUTTON"></a>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -281,9 +301,9 @@
                             </div>
                             <!-- End .project-image -->
                             <div class="project-info">
-                                <h3 data-i18n="PROJECT_5_TITLE"></h3>
-                                <p data-i18n="PROJECT_5_DESCRIPTION_1"></p>
-                                <p data-i18n="PROJECT_5_DESCRIPTION_2"></p>
+                                <h3 data-i18n="PROJECT_6_TITLE"></h3>
+                                <p data-i18n="PROJECT_6_DESCRIPTION_1"></p>
+                                <p data-i18n="PROJECT_6_DESCRIPTION_2"></p>
                             </div>
                             <!-- End .project-info -->
                         </div>
@@ -313,9 +333,9 @@
                             </div>
                             <!-- End .project-image -->
                             <div class="project-info">
-                                <h3 data-i18n="PROJECT_6_TITLE"></h3>
-                                <p data-i18n="PROJECT_6_DESCRIPTION_1"></p>
-                                <p data-i18n="PROJECT_6_DESCRIPTION_2"></p>
+                                <h3 data-i18n="PROJECT_7_TITLE"></h3>
+                                <p data-i18n="PROJECT_7_DESCRIPTION_1"></p>
+                                <p data-i18n="PROJECT_7_DESCRIPTION_2"></p>
                             </div>
                             <!-- End .project-info -->
                         </div>
@@ -342,9 +362,9 @@
                             </div>
                             <!-- End .project-image -->
                             <div class="project-info">
-                                <h3 data-i18n="PROJECT_7_TITLE"></h3>
-                                <p data-i18n="PROJECT_7_DESCRIPTION_1"></p>
-                                <p data-i18n="PROJECT_7_DESCRIPTION_2"></p>
+                                <h3 data-i18n="PROJECT_8_TITLE"></h3>
+                                <p data-i18n="PROJECT_8_DESCRIPTION_1"></p>
+                                <p data-i18n="PROJECT_8_DESCRIPTION_2"></p>
                             </div>
                             <!-- End .project-info -->
                         </div>
@@ -354,6 +374,7 @@
                         <a id="view-more-projects" class="btn btn-primary" type="button" href="#" data-i18n="PROJECTS_SHOW_MORE"></a>
                         <a id="hide-more-projects" class="btn btn-primary" type="button" href="#" data-i18n="PROJECTS_SHOW_LESS" style="display: none;"></a>
                     </div>
+                    <!-- End #more-projects -->
                 </div>
             </div>
         </div>
@@ -363,52 +384,85 @@
             <h2 class="heading" data-i18n="HEADING_SKILLS"></h2>
             <div class="container text-center">
                 <div class="d-flex flex-wrap justify-content-center gap-2">
-                    <span class="badge bg-secondary">HTML</span>
-                    <span class="badge bg-secondary">JSON</span>
-                    <span class="badge bg-secondary">XML</span>
-                    <span class="badge bg-secondary">Assembler</span>
-                    <span class="badge bg-secondary">Bootstrap</span>
-                    <span class="badge bg-secondary">JavaScript</span>
-                    <span class="badge bg-secondary">C</span>
-                    <span class="badge bg-secondary">C#</span>
-                    <span class="badge bg-secondary">C++</span>
-                    <span class="badge bg-secondary">Visual Basic for Applikations (VBA)</span>
-                    <span class="badge bg-secondary">VisualDSP++</span>
-                    <span class="badge bg-secondary">Matlab</span>
-                    <span class="badge bg-secondary">LabVIEW</span>
-                    <span class="badge bg-secondary">uVision</span>
-                    <span class="badge bg-secondary">Visual Studio</span>
-                    <span class="badge bg-secondary">Visual Studio Code</span>
-                    <span class="badge bg-secondary">Git</span>
-                    <span class="badge bg-secondary">Perforce</span>
-                    <span class="badge bg-secondary">Shell</span>
-                    <span class="badge bg-secondary">PowerShell</span>
-                    <span class="badge bg-secondary">Linux</span>
-                    <span class="badge bg-secondary">Microsoft Project</span>
-                    <span class="badge bg-secondary">Microsoft Office</span>
-                    <span class="badge bg-secondary">Access Datenbanken</span>
-                    <span class="badge bg-secondary">MS SQL</span>
-                    <span class="badge bg-secondary">MS SQL LocalDB</span>
-                    <span class="badge bg-secondary">MySQL</span>
-                    <span class="badge bg-secondary">MariaDB</span>
-                    <span class="badge bg-secondary">EPLAN</span>
-                    <span class="badge bg-secondary">Autodesk Inventor</span>
-                    <span class="badge bg-secondary">Eagle</span>
-                    <span class="badge bg-secondary">LTSpice</span>
-                    <span class="badge bg-secondary">ASCET</span>
-                    <span class="badge bg-secondary">Simulink</span>
-                    <span class="badge bg-secondary">Simplorer</span>
-                    <span class="badge bg-secondary">ATPDesigner</span>
-                    <span class="badge bg-secondary">INCA</span>
-                    <span class="badge bg-secondary">Bildverarbeitung</span>
-                    <span class="badge bg-secondary">OpenCV</span>
-                    <span class="badge bg-secondary">VTK</span>
-                    <span class="badge bg-secondary">PCL</span>
-                    <span class="badge bg-secondary">LATEX</span>
-                    <span class="badge bg-secondary">HALCON</span>
-                    <span class="badge bg-secondary">EnsensoSDK</span>
-                    <span class="badge bg-secondary">NxLib</span>
-                    <span class="badge bg-secondary">MFC</span>
+                    <!-- Betriebssysteme -->
+                    <span class="badge bg-secondary"><i class="fa-brands fa-linux badge-logo"></i> Linux</span>
+
+                    <!-- Programmiersprachen & Markup -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-terminal badge-logo"></i> Assembler</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> C</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> C#</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> C++</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-css3 badge-logo"></i> CSS</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-html5 badge-logo"></i> HTML</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-file-code badge-logo"></i> JSON</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-file-lines badge-logo"></i> LATEX</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-file-code badge-logo"></i> Visual Basic for Applikations (VBA)</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-file-code badge-logo"></i> XML</span>
+
+                    <!-- Web & Frameworks -->
+                    <span class="badge bg-secondary"><i class="fa-brands fa-bootstrap badge-logo"></i> Bootstrap</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-globe badge-logo"></i> Front-End/Back-End Webentwicklung</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-js badge-logo"></i> JavaScript</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-php badge-logo"></i> PHP</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-globe badge-logo"></i> Webentwicklung</span>
+
+                    <!-- IDE & Tools -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-microchip badge-logo"></i> Arduino IDE</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-git badge-logo"></i> Git</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-github badge-logo"></i> GitHub</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> Microsoft Foundation Classes (MFC)</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code-branch badge-logo"></i> Perforce</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-terminal badge-logo"></i> PowerShell</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-terminal badge-logo"></i> Shell</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-microsoft badge-logo"></i> Visual Studio</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-codepen badge-logo"></i> Visual Studio Code</span>
+
+                    <!-- Datenbanken & Office -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> Access Datenbanken</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-server badge-logo"></i> Apache2</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> MariaDB</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-microsoft badge-logo"></i> Microsoft Office</span>
+                    <span class="badge bg-secondary"><i class="fa-brands fa-microsoft badge-logo"></i> Microsoft Project</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> MS SQL</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> MS SQL LocalDB</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> MySQL</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-database badge-logo"></i> PostgreSQL</span>
+
+                    <!-- Technische Software -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> ASCET</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> ATPDesigner</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> Autodesk Inventor</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> Eagle</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> EPLAN</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> INCA</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> LabVIEW</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> LTSpice</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> Matlab</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> Simulink</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> Simplorer</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> TIA Portal</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> uVision</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-desktop badge-logo"></i> VisualDSP++</span>
+
+                    <!-- Elektronik & Automatisierung -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-cogs badge-logo"></i> Automatisierungstechnik</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-wave-square badge-logo"></i> Digitale Signalprozessoren (DSP)</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-cogs badge-logo"></i> Elektrische Antriebssysteme</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-car badge-logo"></i> Fahrzeugsysteme</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-microchip badge-logo"></i> Field Programmable Gate Arrays (FPGA)</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-robot badge-logo"></i> Industrierobotik</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-bolt badge-logo"></i> Leisungselektronik</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-sliders-h badge-logo"></i> Regelungstechnik</span>
+
+                    <!-- Bildverarbeitung & Signal -->
+                    <span class="badge bg-secondary"><i class="fa-solid fa-camera badge-logo"></i> Bildverarbeitung</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> EnsensoSDK</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-eye badge-logo"></i> HALCON</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-search badge-logo"></i> Mustererkennung</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-code badge-logo"></i> NxLib</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-eye badge-logo"></i> OpenCV</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-cube badge-logo"></i> PointCloudLibrary (PCL)</span>
+                    <span class="badge bg-secondary"><i class="fa-solid fa-chart-bar badge-logo"></i> Visualization Toolkit (VTK)</span>
                 </div>
             </div>
         </div>
