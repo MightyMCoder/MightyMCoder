@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <!-- LANGUAGES -->
-    <string name="LANG_GERMAN">🇩🇪 Deutsch</string>
-    <string name="LANG_ENGLISH">🇬🇧 Englisch</string>
-    <string name="LANG_FRENCH">🇫🇷 Französisch</string>
+    <string name="LANG_GERMAN"><![CDATA[<img src="https://flagcdn.com/de.svg" width="18" alt="Germany" class="me-2">Deutsch]]></string>
+    <string name="LANG_ENGLISH"><![CDATA[<img src="https://flagcdn.com/gb.svg" width="18" alt="United Kingdom" class="me-2">Englisch]]></string>
+    <string name="LANG_FRENCH"><![CDATA[<img src="https://flagcdn.com/fr.svg" width="18" alt="France" class="me-2">Französisch]]></string>
     <!-- HEADLINES -->
     <string name="HEADING_ABOUT">Über mich</string>
     <string name="HEADING_EXPERIENCE">Beruflicher Werdegang</string>
@@ -30,6 +30,11 @@
     <string name="ABOUT_INTRO_TEXT4">Privat finde ich Ausgleich beim Badminton, Musizieren und Singen. Beim Spielen von Klavier und Orgel sowie beim Singen im Jungen Chor Wallerfangen schöpfe ich neue Energie für meine technischen Projekte.</string>
     <!-- EXPERIENCE -->
     <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
+    <string name="EXP_COMPANY_HANS_LEFFER">Stahl- und Apparatebau Hans Leffer GmbH &amp; Co. KG</string>
+    <!-- EXP JUNIOR SOFTWARE DEVELOPER -->
+    <string name="EXP_DATE_JUNIOR_SOFTWARE_DEVELOPER">Oktober 2025 – Heute</string>
+    <string name="EXP_TITLE_JUNIOR_SOFTWARE_DEVELOPER">Junior Softwareentwickler</string>
+    <string name="EXP_DESC_JUNIOR_SOFTWARE_DEVELOPER">Weiterentwicklung und Wartung des Infor LN ERP-Systems sowie Implementierung von Schnittstellen zu Drittanbietersoftware.</string>
     <!-- EXP MASTER -->
     <string name="EXP_DATE_MASTER">Oktober 2023 – April 2025</string>
     <string name="EXP_TITLE_MASTER">kooperativer Student (Masterand)</string>

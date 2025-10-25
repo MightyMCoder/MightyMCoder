@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
     <!-- LANGUAGES -->
-    <string name="LANG_GERMAN">🇩🇪 German</string>
-    <string name="LANG_ENGLISH">🇬🇧 English</string>
-    <string name="LANG_FRENCH">🇫🇷 French</string>
+    <string name="LANG_GERMAN"><![CDATA[<img src="https://flagcdn.com/de.svg" width="18" alt="Germany" class="me-2">German]]></string>
+    <string name="LANG_ENGLISH"><![CDATA[<img src="https://flagcdn.com/gb.svg" width="18" alt="United Kingdom" class="me-2">English]]></string>
+    <string name="LANG_FRENCH"><![CDATA[<img src="https://flagcdn.com/fr.svg" width="18" alt="France" class="me-2">French]]></string>
     <!-- HEADLINES -->
     <string name="HEADING_ABOUT">About Me</string>
     <string name="HEADING_EXPERIENCE">Experience</string>
@@ -30,6 +30,11 @@
     <string name="ABOUT_INTRO_TEXT4">In my free time, I find balance in badminton, making music, and singing in a choir. Playing the piano and organ, as well as singing with the Junge Chor Wallerfangen, recharges my energy for my technical projects.</string>
     <!-- EXPERIENCE -->
     <string name="EXP_COMPANY_DUERR">Dürr Assembly Products GmbH</string>
+    <string name="EXP_COMPANY_HANS_LEFFER">Stahl- und Apparatebau Hans Leffer GmbH &amp; Co. KG</string>
+    <!-- EXP JUNIOR SOFTWARE DEVELOPER -->
+    <string name="EXP_DATE_JUNIOR_SOFTWARE_DEVELOPER">October 2025 – Present</string>
+    <string name="EXP_TITLE_JUNIOR_SOFTWARE_DEVELOPER">Junior Software Developer</string>
+    <string name="EXP_DESC_JUNIOR_SOFTWARE_DEVELOPER">Further development and maintenance of the Infor LN ERP system as well as implementation of interfaces to third-party software.</string>
     <!-- EXP MASTER -->
     <string name="EXP_DATE_MASTER">October 2023 – April 2025</string>
     <string name="EXP_TITLE_MASTER">Cooperative Student (Master's Candidate)</string>
@@ -45,11 +50,11 @@
     <!-- EXP MONTEUR -->
     <string name="EXP_DATE_MONTEUR">June 2019 – September 2019</string>
     <string name="EXP_TITLE_MONTEUR">Installer (Electrical)</string>
-    <string name="EXP_DESC_MONTEUR">Temporary employment as an installer until the start of my studies.</string>
+    <string name="EXP_DESC_MONTEUR">Temporary employment as an installer until the start of my studies</string>
     <!-- EXP APPRENTICESHIP -->
     <string name="EXP_DATE_APPRENTICESHIP">September 2016 – June 2019</string>
     <string name="EXP_TITLE_APPRENTICESHIP">Apprenticeship as a Mechatronics Technician</string>
-    <string name="EXP_DESC_APPRENTICESHIP">On-the-job training as a mechatronics technician.</string>
+    <string name="EXP_DESC_APPRENTICESHIP">On-the-job training as a mechatronics technician</string>
     <!-- EDUCATION -->
     <string name="EDU_HTW_SAAR">University of Applied Sciences for Technology and Economy of Saarland</string>
     <string name="EDU_BBZ_SULZBACH">Sulzbach Vocational Training Center</string>
